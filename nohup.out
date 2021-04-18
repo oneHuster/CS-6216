@@ -1,0 +1,1536 @@
+2021-04-12 11:30:21 INFO: - LOADING SYMBOL ID AND SYMBOL EMBEDDING
+2021-04-12 11:30:22 INFO: - LOADING PRE-TRAINED EMBEDDING
+2021-04-12 11:30:41 INFO: - LOADING KB EMBEDDINGS
+2021-04-12 11:30:45 INFO: - BUILDING CONNECTION MATRIX
+  0%|          | 0/181109 [00:00<?, ?it/s]  6%|▌         | 10602/181109 [00:00<00:01, 106014.03it/s] 11%|█         | 19269/181109 [00:00<00:01, 99360.36it/s]  21%|██▏       | 38874/181109 [00:00<00:01, 116614.02it/s] 29%|██▉       | 52879/181109 [00:00<00:01, 120387.48it/s] 42%|████▏     | 76361/181109 [00:00<00:00, 141001.28it/s] 55%|█████▌    | 100124/181109 [00:00<00:00, 160591.24it/s] 68%|██████▊   | 123629/181109 [00:00<00:00, 177454.63it/s] 79%|███████▉  | 142686/181109 [00:00<00:00, 153938.00it/s] 89%|████████▉ | 161368/181109 [00:00<00:00, 162519.00it/s]100%|█████████▉| 180359/181109 [00:01<00:00, 169868.86it/s]100%|██████████| 181109/181109 [00:01<00:00, 168682.16it/s]
+2021-04-12 11:30:47 INFO: - LOADING CANDIDATES ENTITIES
+2021-04-12 11:30:47 INFO: - START TRAINING...
+2021-04-12 11:30:47 INFO: - LOADING TRAINING DATA
+2021-04-12 11:30:47 INFO: - LOADING CANDIDATES
+2021-04-12 11:30:48 INFO: - EVALUATING ON DEV DATA
+2021-04-12 11:31:39 CRITICAL: - concept:parentofperson Hits10:0.000, Hits5:0.000, Hits1:0.000 MRR:0.001
+2021-04-12 11:31:39 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 11:31:53 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.040, Hits1:0.040 MRR:0.041
+2021-04-12 11:31:53 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 11:32:12 CRITICAL: - concept:bankbankincountry Hits10:0.175, Hits5:0.144, Hits1:0.079 MRR:0.124
+2021-04-12 11:32:12 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 11:33:26 CRITICAL: - concept:cityalsoknownas Hits10:0.031, Hits5:0.025, Hits1:0.023 MRR:0.030
+2021-04-12 11:33:26 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 11:33:29 CRITICAL: - concept:sportusesstadium Hits10:0.000, Hits5:0.000, Hits1:0.000 MRR:0.009
+2021-04-12 11:33:29 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 11:33:29 CRITICAL: - HITS10: 0.054
+2021-04-12 11:33:29 CRITICAL: - HITS5: 0.045
+2021-04-12 11:33:29 CRITICAL: - HITS1: 0.029
+2021-04-12 11:33:29 CRITICAL: - MAP: 0.043
+2021-04-12 11:52:39 INFO: - EVALUATING ON DEV DATA
+2021-04-12 11:53:28 CRITICAL: - concept:parentofperson Hits10:0.370, Hits5:0.208, Hits1:0.046 MRR:0.137
+2021-04-12 11:53:28 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 11:53:40 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.000, Hits1:0.000 MRR:0.015
+2021-04-12 11:53:40 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 11:53:57 CRITICAL: - concept:bankbankincountry Hits10:0.341, Hits5:0.245, Hits1:0.004 MRR:0.122
+2021-04-12 11:53:57 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 11:54:57 CRITICAL: - concept:cityalsoknownas Hits10:0.141, Hits5:0.062, Hits1:0.008 MRR:0.046
+2021-04-12 11:54:57 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 11:55:01 CRITICAL: - concept:sportusesstadium Hits10:0.113, Hits5:0.073, Hits1:0.008 MRR:0.050
+2021-04-12 11:55:01 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 11:55:01 CRITICAL: - HITS10: 0.226
+2021-04-12 11:55:01 CRITICAL: - HITS5: 0.132
+2021-04-12 11:55:01 CRITICAL: - HITS1: 0.015
+2021-04-12 11:55:01 CRITICAL: - MAP: 0.081
+2021-04-12 12:00:40 INFO: - EVALUATING ON DEV DATA
+2021-04-12 12:01:30 CRITICAL: - concept:parentofperson Hits10:0.454, Hits5:0.343, Hits1:0.185 MRR:0.266
+2021-04-12 12:01:30 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 12:01:43 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.080, Hits5:0.027, Hits1:0.000 MRR:0.018
+2021-04-12 12:01:43 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 12:01:59 CRITICAL: - concept:bankbankincountry Hits10:0.297, Hits5:0.249, Hits1:0.066 MRR:0.158
+2021-04-12 12:01:59 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 12:03:00 CRITICAL: - concept:cityalsoknownas Hits10:0.051, Hits5:0.023, Hits1:0.006 MRR:0.025
+2021-04-12 12:03:00 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 12:03:04 CRITICAL: - concept:sportusesstadium Hits10:0.097, Hits5:0.081, Hits1:0.008 MRR:0.050
+2021-04-12 12:03:04 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 12:03:04 CRITICAL: - HITS10: 0.202
+2021-04-12 12:03:04 CRITICAL: - HITS5: 0.151
+2021-04-12 12:03:04 CRITICAL: - HITS1: 0.058
+2021-04-12 12:03:04 CRITICAL: - MAP: 0.110
+2021-04-12 12:08:37 INFO: - EVALUATING ON DEV DATA
+2021-04-12 12:09:26 CRITICAL: - concept:parentofperson Hits10:0.384, Hits5:0.241, Hits1:0.046 MRR:0.143
+2021-04-12 12:09:26 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 12:09:38 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.000, Hits5:0.000, Hits1:0.000 MRR:0.007
+2021-04-12 12:09:38 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 12:09:55 CRITICAL: - concept:bankbankincountry Hits10:0.328, Hits5:0.240, Hits1:0.066 MRR:0.157
+2021-04-12 12:09:55 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 12:10:56 CRITICAL: - concept:cityalsoknownas Hits10:0.070, Hits5:0.039, Hits1:0.003 MRR:0.029
+2021-04-12 12:10:56 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 12:11:01 CRITICAL: - concept:sportusesstadium Hits10:0.065, Hits5:0.056, Hits1:0.040 MRR:0.057
+2021-04-12 12:11:01 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 12:11:01 CRITICAL: - HITS10: 0.191
+2021-04-12 12:11:01 CRITICAL: - HITS5: 0.128
+2021-04-12 12:11:01 CRITICAL: - HITS1: 0.031
+2021-04-12 12:11:01 CRITICAL: - MAP: 0.085
+2021-04-12 12:16:31 INFO: - EVALUATING ON DEV DATA
+2021-04-12 12:17:20 CRITICAL: - concept:parentofperson Hits10:0.500, Hits5:0.384, Hits1:0.153 MRR:0.264
+2021-04-12 12:17:20 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 12:17:33 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.013, Hits1:0.000 MRR:0.009
+2021-04-12 12:17:33 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 12:17:51 CRITICAL: - concept:bankbankincountry Hits10:0.384, Hits5:0.293, Hits1:0.131 MRR:0.215
+2021-04-12 12:17:51 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 12:18:52 CRITICAL: - concept:cityalsoknownas Hits10:0.051, Hits5:0.028, Hits1:0.008 MRR:0.029
+2021-04-12 12:18:52 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 12:18:57 CRITICAL: - concept:sportusesstadium Hits10:0.073, Hits5:0.040, Hits1:0.000 MRR:0.028
+2021-04-12 12:18:57 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 12:18:57 CRITICAL: - HITS10: 0.224
+2021-04-12 12:18:57 CRITICAL: - HITS5: 0.166
+2021-04-12 12:18:57 CRITICAL: - HITS1: 0.066
+2021-04-12 12:18:57 CRITICAL: - MAP: 0.121
+2021-04-12 12:24:34 INFO: - EVALUATING ON DEV DATA
+2021-04-12 12:25:23 CRITICAL: - concept:parentofperson Hits10:0.532, Hits5:0.417, Hits1:0.139 MRR:0.261
+2021-04-12 12:25:23 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 12:25:36 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.040, Hits1:0.000 MRR:0.021
+2021-04-12 12:25:36 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 12:25:53 CRITICAL: - concept:bankbankincountry Hits10:0.380, Hits5:0.253, Hits1:0.083 MRR:0.180
+2021-04-12 12:25:53 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 12:26:56 CRITICAL: - concept:cityalsoknownas Hits10:0.042, Hits5:0.023, Hits1:0.008 MRR:0.024
+2021-04-12 12:26:56 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 12:27:00 CRITICAL: - concept:sportusesstadium Hits10:0.065, Hits5:0.048, Hits1:0.000 MRR:0.019
+2021-04-12 12:27:00 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 12:27:00 CRITICAL: - HITS10: 0.228
+2021-04-12 12:27:00 CRITICAL: - HITS5: 0.165
+2021-04-12 12:27:00 CRITICAL: - HITS1: 0.052
+2021-04-12 12:27:00 CRITICAL: - MAP: 0.110
+2021-04-12 12:32:31 INFO: - EVALUATING ON DEV DATA
+2021-04-12 12:33:21 CRITICAL: - concept:parentofperson Hits10:0.421, Hits5:0.292, Hits1:0.051 MRR:0.171
+2021-04-12 12:33:21 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 12:33:34 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.013, Hits1:0.000 MRR:0.011
+2021-04-12 12:33:34 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 12:33:52 CRITICAL: - concept:bankbankincountry Hits10:0.406, Hits5:0.301, Hits1:0.114 MRR:0.213
+2021-04-12 12:33:52 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 12:34:55 CRITICAL: - concept:cityalsoknownas Hits10:0.056, Hits5:0.034, Hits1:0.014 MRR:0.031
+2021-04-12 12:34:55 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 12:34:59 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.032, Hits1:0.000 MRR:0.020
+2021-04-12 12:34:59 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 12:34:59 CRITICAL: - HITS10: 0.211
+2021-04-12 12:34:59 CRITICAL: - HITS5: 0.149
+2021-04-12 12:34:59 CRITICAL: - HITS1: 0.042
+2021-04-12 12:34:59 CRITICAL: - MAP: 0.100
+2021-04-12 12:40:44 INFO: - EVALUATING ON DEV DATA
+2021-04-12 12:41:33 CRITICAL: - concept:parentofperson Hits10:0.509, Hits5:0.366, Hits1:0.148 MRR:0.256
+2021-04-12 12:41:33 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 12:41:46 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.013, Hits1:0.013 MRR:0.023
+2021-04-12 12:41:46 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 12:42:04 CRITICAL: - concept:bankbankincountry Hits10:0.415, Hits5:0.266, Hits1:0.096 MRR:0.196
+2021-04-12 12:42:04 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 12:43:09 CRITICAL: - concept:cityalsoknownas Hits10:0.051, Hits5:0.025, Hits1:0.000 MRR:0.021
+2021-04-12 12:43:09 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 12:43:13 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.024, Hits1:0.024 MRR:0.037
+2021-04-12 12:43:13 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 12:43:13 CRITICAL: - HITS10: 0.232
+2021-04-12 12:43:13 CRITICAL: - HITS5: 0.153
+2021-04-12 12:43:13 CRITICAL: - HITS1: 0.058
+2021-04-12 12:43:13 CRITICAL: - MAP: 0.114
+2021-04-12 12:49:09 INFO: - EVALUATING ON DEV DATA
+2021-04-12 12:49:58 CRITICAL: - concept:parentofperson Hits10:0.486, Hits5:0.375, Hits1:0.125 MRR:0.244
+2021-04-12 12:49:58 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 12:50:11 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.000, Hits5:0.000, Hits1:0.000 MRR:0.009
+2021-04-12 12:50:11 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 12:50:28 CRITICAL: - concept:bankbankincountry Hits10:0.502, Hits5:0.371, Hits1:0.153 MRR:0.259
+2021-04-12 12:50:28 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 12:51:32 CRITICAL: - concept:cityalsoknownas Hits10:0.042, Hits5:0.011, Hits1:0.003 MRR:0.016
+2021-04-12 12:51:32 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 12:51:36 CRITICAL: - concept:sportusesstadium Hits10:0.024, Hits5:0.024, Hits1:0.008 MRR:0.020
+2021-04-12 12:51:36 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 12:51:36 CRITICAL: - HITS10: 0.238
+2021-04-12 12:51:36 CRITICAL: - HITS5: 0.173
+2021-04-12 12:51:36 CRITICAL: - HITS1: 0.064
+2021-04-12 12:51:36 CRITICAL: - MAP: 0.121
+2021-04-12 12:57:33 INFO: - EVALUATING ON DEV DATA
+2021-04-12 12:58:22 CRITICAL: - concept:parentofperson Hits10:0.556, Hits5:0.352, Hits1:0.079 MRR:0.218
+2021-04-12 12:58:22 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 12:58:34 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.107, Hits5:0.067, Hits1:0.040 MRR:0.057
+2021-04-12 12:58:34 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 12:58:51 CRITICAL: - concept:bankbankincountry Hits10:0.485, Hits5:0.402, Hits1:0.127 MRR:0.251
+2021-04-12 12:58:51 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 12:59:56 CRITICAL: - concept:cityalsoknownas Hits10:0.037, Hits5:0.014, Hits1:0.000 MRR:0.017
+2021-04-12 12:59:56 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 13:00:00 CRITICAL: - concept:sportusesstadium Hits10:0.073, Hits5:0.065, Hits1:0.016 MRR:0.034
+2021-04-12 13:00:00 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 13:00:00 CRITICAL: - HITS10: 0.261
+2021-04-12 13:00:00 CRITICAL: - HITS5: 0.186
+2021-04-12 13:00:00 CRITICAL: - HITS1: 0.051
+2021-04-12 13:00:00 CRITICAL: - MAP: 0.119
+2021-04-12 13:06:08 INFO: - EVALUATING ON DEV DATA
+2021-04-12 13:06:58 CRITICAL: - concept:parentofperson Hits10:0.523, Hits5:0.375, Hits1:0.106 MRR:0.231
+2021-04-12 13:06:58 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 13:07:10 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.027, Hits1:0.000 MRR:0.012
+2021-04-12 13:07:10 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 13:07:29 CRITICAL: - concept:bankbankincountry Hits10:0.528, Hits5:0.367, Hits1:0.153 MRR:0.278
+2021-04-12 13:07:29 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 13:08:30 CRITICAL: - concept:cityalsoknownas Hits10:0.051, Hits5:0.028, Hits1:0.003 MRR:0.019
+2021-04-12 13:08:30 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 13:08:34 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.016, Hits1:0.008 MRR:0.022
+2021-04-12 13:08:34 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 13:08:34 CRITICAL: - HITS10: 0.260
+2021-04-12 13:08:34 CRITICAL: - HITS5: 0.179
+2021-04-12 13:08:34 CRITICAL: - HITS1: 0.060
+2021-04-12 13:08:34 CRITICAL: - MAP: 0.124
+2021-04-12 13:14:23 INFO: - EVALUATING ON DEV DATA
+2021-04-12 13:15:12 CRITICAL: - concept:parentofperson Hits10:0.514, Hits5:0.412, Hits1:0.153 MRR:0.271
+2021-04-12 13:15:12 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 13:15:25 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.040, Hits1:0.013 MRR:0.032
+2021-04-12 13:15:25 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 13:15:44 CRITICAL: - concept:bankbankincountry Hits10:0.515, Hits5:0.293, Hits1:0.166 MRR:0.256
+2021-04-12 13:15:44 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 13:16:46 CRITICAL: - concept:cityalsoknownas Hits10:0.051, Hits5:0.017, Hits1:0.003 MRR:0.019
+2021-04-12 13:16:46 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 13:16:50 CRITICAL: - concept:sportusesstadium Hits10:0.008, Hits5:0.008, Hits1:0.008 MRR:0.014
+2021-04-12 13:16:50 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 13:16:50 CRITICAL: - HITS10: 0.251
+2021-04-12 13:16:50 CRITICAL: - HITS5: 0.166
+2021-04-12 13:16:50 CRITICAL: - HITS1: 0.074
+2021-04-12 13:16:50 CRITICAL: - MAP: 0.128
+2021-04-12 13:23:00 INFO: - EVALUATING ON DEV DATA
+2021-04-12 13:23:50 CRITICAL: - concept:parentofperson Hits10:0.537, Hits5:0.421, Hits1:0.204 MRR:0.303
+2021-04-12 13:23:50 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 13:24:03 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.000, Hits1:0.000 MRR:0.010
+2021-04-12 13:24:03 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 13:24:19 CRITICAL: - concept:bankbankincountry Hits10:0.515, Hits5:0.389, Hits1:0.096 MRR:0.230
+2021-04-12 13:24:19 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 13:25:21 CRITICAL: - concept:cityalsoknownas Hits10:0.031, Hits5:0.020, Hits1:0.003 MRR:0.016
+2021-04-12 13:25:21 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 13:25:26 CRITICAL: - concept:sportusesstadium Hits10:0.048, Hits5:0.040, Hits1:0.008 MRR:0.024
+2021-04-12 13:25:26 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 13:25:26 CRITICAL: - HITS10: 0.254
+2021-04-12 13:25:26 CRITICAL: - HITS5: 0.192
+2021-04-12 13:25:26 CRITICAL: - HITS1: 0.068
+2021-04-12 13:25:26 CRITICAL: - MAP: 0.128
+2021-04-12 13:31:14 INFO: - EVALUATING ON DEV DATA
+2021-04-12 13:32:05 CRITICAL: - concept:parentofperson Hits10:0.519, Hits5:0.380, Hits1:0.130 MRR:0.244
+2021-04-12 13:32:05 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 13:32:18 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.067, Hits5:0.027, Hits1:0.000 MRR:0.019
+2021-04-12 13:32:18 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 13:32:35 CRITICAL: - concept:bankbankincountry Hits10:0.576, Hits5:0.432, Hits1:0.188 MRR:0.308
+2021-04-12 13:32:35 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 13:33:39 CRITICAL: - concept:cityalsoknownas Hits10:0.048, Hits5:0.031, Hits1:0.003 MRR:0.024
+2021-04-12 13:33:39 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 13:33:43 CRITICAL: - concept:sportusesstadium Hits10:0.008, Hits5:0.008, Hits1:0.008 MRR:0.017
+2021-04-12 13:33:43 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 13:33:43 CRITICAL: - HITS10: 0.267
+2021-04-12 13:33:43 CRITICAL: - HITS5: 0.195
+2021-04-12 13:33:43 CRITICAL: - HITS1: 0.073
+2021-04-12 13:33:43 CRITICAL: - MAP: 0.135
+2021-04-12 13:39:30 INFO: - EVALUATING ON DEV DATA
+2021-04-12 13:40:20 CRITICAL: - concept:parentofperson Hits10:0.468, Hits5:0.324, Hits1:0.097 MRR:0.202
+2021-04-12 13:40:20 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 13:40:33 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.027, Hits1:0.000 MRR:0.014
+2021-04-12 13:40:33 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 13:40:50 CRITICAL: - concept:bankbankincountry Hits10:0.607, Hits5:0.520, Hits1:0.240 MRR:0.361
+2021-04-12 13:40:50 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 13:41:55 CRITICAL: - concept:cityalsoknownas Hits10:0.028, Hits5:0.017, Hits1:0.006 MRR:0.017
+2021-04-12 13:41:55 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 13:41:59 CRITICAL: - concept:sportusesstadium Hits10:0.056, Hits5:0.032, Hits1:0.032 MRR:0.041
+2021-04-12 13:41:59 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 13:41:59 CRITICAL: - HITS10: 0.260
+2021-04-12 13:41:59 CRITICAL: - HITS5: 0.201
+2021-04-12 13:41:59 CRITICAL: - HITS1: 0.082
+2021-04-12 13:41:59 CRITICAL: - MAP: 0.139
+2021-04-12 13:47:45 INFO: - EVALUATING ON DEV DATA
+2021-04-12 13:48:35 CRITICAL: - concept:parentofperson Hits10:0.519, Hits5:0.352, Hits1:0.065 MRR:0.191
+2021-04-12 13:48:35 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 13:48:48 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.000, Hits1:0.000 MRR:0.007
+2021-04-12 13:48:48 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 13:49:05 CRITICAL: - concept:bankbankincountry Hits10:0.646, Hits5:0.520, Hits1:0.170 MRR:0.328
+2021-04-12 13:49:05 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 13:50:12 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.014, Hits1:0.000 MRR:0.013
+2021-04-12 13:50:12 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 13:50:16 CRITICAL: - concept:sportusesstadium Hits10:0.056, Hits5:0.016, Hits1:0.008 MRR:0.023
+2021-04-12 13:50:16 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 13:50:16 CRITICAL: - HITS10: 0.277
+2021-04-12 13:50:16 CRITICAL: - HITS5: 0.202
+2021-04-12 13:50:16 CRITICAL: - HITS1: 0.054
+2021-04-12 13:50:16 CRITICAL: - MAP: 0.125
+2021-04-12 13:56:03 INFO: - EVALUATING ON DEV DATA
+2021-04-12 13:56:53 CRITICAL: - concept:parentofperson Hits10:0.495, Hits5:0.310, Hits1:0.093 MRR:0.209
+2021-04-12 13:56:53 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 13:57:06 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.000, Hits1:0.000 MRR:0.006
+2021-04-12 13:57:06 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 13:57:26 CRITICAL: - concept:bankbankincountry Hits10:0.646, Hits5:0.480, Hits1:0.153 MRR:0.303
+2021-04-12 13:57:26 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 13:58:30 CRITICAL: - concept:cityalsoknownas Hits10:0.037, Hits5:0.017, Hits1:0.000 MRR:0.013
+2021-04-12 13:58:30 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 13:58:35 CRITICAL: - concept:sportusesstadium Hits10:0.032, Hits5:0.016, Hits1:0.008 MRR:0.018
+2021-04-12 13:58:35 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 13:58:35 CRITICAL: - HITS10: 0.273
+2021-04-12 13:58:35 CRITICAL: - HITS5: 0.185
+2021-04-12 13:58:35 CRITICAL: - HITS1: 0.056
+2021-04-12 13:58:35 CRITICAL: - MAP: 0.122
+2021-04-12 14:04:19 INFO: - EVALUATING ON DEV DATA
+2021-04-12 14:05:08 CRITICAL: - concept:parentofperson Hits10:0.481, Hits5:0.236, Hits1:0.051 MRR:0.158
+2021-04-12 14:05:08 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 14:05:21 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.027, Hits1:0.000 MRR:0.015
+2021-04-12 14:05:21 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 14:05:39 CRITICAL: - concept:bankbankincountry Hits10:0.572, Hits5:0.450, Hits1:0.148 MRR:0.297
+2021-04-12 14:05:39 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 14:06:45 CRITICAL: - concept:cityalsoknownas Hits10:0.008, Hits5:0.006, Hits1:0.000 MRR:0.006
+2021-04-12 14:06:45 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 14:06:49 CRITICAL: - concept:sportusesstadium Hits10:0.056, Hits5:0.048, Hits1:0.008 MRR:0.034
+2021-04-12 14:06:49 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 14:06:49 CRITICAL: - HITS10: 0.248
+2021-04-12 14:06:49 CRITICAL: - HITS5: 0.164
+2021-04-12 14:06:49 CRITICAL: - HITS1: 0.046
+2021-04-12 14:06:49 CRITICAL: - MAP: 0.110
+2021-04-12 14:12:32 INFO: - EVALUATING ON DEV DATA
+2021-04-12 14:13:23 CRITICAL: - concept:parentofperson Hits10:0.491, Hits5:0.370, Hits1:0.106 MRR:0.223
+2021-04-12 14:13:23 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 14:13:36 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.013, Hits1:0.000 MRR:0.012
+2021-04-12 14:13:36 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 14:13:55 CRITICAL: - concept:bankbankincountry Hits10:0.620, Hits5:0.489, Hits1:0.197 MRR:0.331
+2021-04-12 14:13:55 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 14:14:59 CRITICAL: - concept:cityalsoknownas Hits10:0.020, Hits5:0.017, Hits1:0.006 MRR:0.014
+2021-04-12 14:14:59 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 14:15:03 CRITICAL: - concept:sportusesstadium Hits10:0.089, Hits5:0.065, Hits1:0.016 MRR:0.042
+2021-04-12 14:15:03 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 14:15:03 CRITICAL: - HITS10: 0.268
+2021-04-12 14:15:03 CRITICAL: - HITS5: 0.207
+2021-04-12 14:15:03 CRITICAL: - HITS1: 0.072
+2021-04-12 14:15:03 CRITICAL: - MAP: 0.135
+2021-04-12 14:20:47 INFO: - EVALUATING ON DEV DATA
+2021-04-12 14:21:37 CRITICAL: - concept:parentofperson Hits10:0.532, Hits5:0.366, Hits1:0.153 MRR:0.262
+2021-04-12 14:21:37 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 14:21:51 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.013, Hits1:0.000 MRR:0.013
+2021-04-12 14:21:51 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 14:22:08 CRITICAL: - concept:bankbankincountry Hits10:0.572, Hits5:0.428, Hits1:0.214 MRR:0.327
+2021-04-12 14:22:08 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 14:23:11 CRITICAL: - concept:cityalsoknownas Hits10:0.034, Hits5:0.017, Hits1:0.003 MRR:0.015
+2021-04-12 14:23:11 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 14:23:15 CRITICAL: - concept:sportusesstadium Hits10:0.056, Hits5:0.048, Hits1:0.024 MRR:0.039
+2021-04-12 14:23:15 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 14:23:15 CRITICAL: - HITS10: 0.266
+2021-04-12 14:23:15 CRITICAL: - HITS5: 0.190
+2021-04-12 14:23:15 CRITICAL: - HITS1: 0.086
+2021-04-12 14:23:15 CRITICAL: - MAP: 0.143
+2021-04-12 14:28:59 INFO: - EVALUATING ON DEV DATA
+2021-04-12 14:29:49 CRITICAL: - concept:parentofperson Hits10:0.472, Hits5:0.352, Hits1:0.139 MRR:0.242
+2021-04-12 14:29:49 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 14:30:02 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.013, Hits1:0.000 MRR:0.018
+2021-04-12 14:30:02 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 14:30:20 CRITICAL: - concept:bankbankincountry Hits10:0.646, Hits5:0.511, Hits1:0.249 MRR:0.372
+2021-04-12 14:30:20 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 14:31:25 CRITICAL: - concept:cityalsoknownas Hits10:0.034, Hits5:0.014, Hits1:0.003 MRR:0.018
+2021-04-12 14:31:25 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 14:31:29 CRITICAL: - concept:sportusesstadium Hits10:0.065, Hits5:0.032, Hits1:0.000 MRR:0.022
+2021-04-12 14:31:29 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 14:31:29 CRITICAL: - HITS10: 0.272
+2021-04-12 14:31:29 CRITICAL: - HITS5: 0.203
+2021-04-12 14:31:29 CRITICAL: - HITS1: 0.088
+2021-04-12 14:31:29 CRITICAL: - MAP: 0.148
+2021-04-12 14:37:16 INFO: - EVALUATING ON DEV DATA
+2021-04-12 14:38:05 CRITICAL: - concept:parentofperson Hits10:0.500, Hits5:0.306, Hits1:0.074 MRR:0.183
+2021-04-12 14:38:05 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 14:38:18 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.013, Hits1:0.000 MRR:0.017
+2021-04-12 14:38:18 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 14:38:36 CRITICAL: - concept:bankbankincountry Hits10:0.672, Hits5:0.537, Hits1:0.279 MRR:0.395
+2021-04-12 14:38:36 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 14:39:43 CRITICAL: - concept:cityalsoknownas Hits10:0.028, Hits5:0.011, Hits1:0.000 MRR:0.011
+2021-04-12 14:39:43 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 14:39:48 CRITICAL: - concept:sportusesstadium Hits10:0.056, Hits5:0.032, Hits1:0.008 MRR:0.025
+2021-04-12 14:39:48 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 14:39:48 CRITICAL: - HITS10: 0.282
+2021-04-12 14:39:48 CRITICAL: - HITS5: 0.198
+2021-04-12 14:39:48 CRITICAL: - HITS1: 0.081
+2021-04-12 14:39:48 CRITICAL: - MAP: 0.139
+2021-04-12 14:45:35 INFO: - EVALUATING ON DEV DATA
+2021-04-12 14:46:24 CRITICAL: - concept:parentofperson Hits10:0.509, Hits5:0.356, Hits1:0.125 MRR:0.236
+2021-04-12 14:46:24 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 14:46:37 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.013, Hits1:0.013 MRR:0.025
+2021-04-12 14:46:37 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 14:46:55 CRITICAL: - concept:bankbankincountry Hits10:0.633, Hits5:0.550, Hits1:0.279 MRR:0.390
+2021-04-12 14:46:55 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 14:47:59 CRITICAL: - concept:cityalsoknownas Hits10:0.039, Hits5:0.014, Hits1:0.000 MRR:0.015
+2021-04-12 14:47:59 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 14:48:04 CRITICAL: - concept:sportusesstadium Hits10:0.048, Hits5:0.048, Hits1:0.008 MRR:0.026
+2021-04-12 14:48:04 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 14:48:04 CRITICAL: - HITS10: 0.278
+2021-04-12 14:48:04 CRITICAL: - HITS5: 0.215
+2021-04-12 14:48:04 CRITICAL: - HITS1: 0.093
+2021-04-12 14:48:04 CRITICAL: - MAP: 0.151
+2021-04-12 14:53:50 INFO: - EVALUATING ON DEV DATA
+2021-04-12 14:54:39 CRITICAL: - concept:parentofperson Hits10:0.537, Hits5:0.380, Hits1:0.088 MRR:0.230
+2021-04-12 14:54:39 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 14:54:52 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.013, Hits1:0.000 MRR:0.008
+2021-04-12 14:54:52 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 14:55:09 CRITICAL: - concept:bankbankincountry Hits10:0.624, Hits5:0.507, Hits1:0.293 MRR:0.394
+2021-04-12 14:55:09 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 14:56:16 CRITICAL: - concept:cityalsoknownas Hits10:0.031, Hits5:0.017, Hits1:0.000 MRR:0.013
+2021-04-12 14:56:16 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 14:56:20 CRITICAL: - concept:sportusesstadium Hits10:0.089, Hits5:0.056, Hits1:0.040 MRR:0.056
+2021-04-12 14:56:20 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 14:56:20 CRITICAL: - HITS10: 0.282
+2021-04-12 14:56:20 CRITICAL: - HITS5: 0.212
+2021-04-12 14:56:20 CRITICAL: - HITS1: 0.091
+2021-04-12 14:56:20 CRITICAL: - MAP: 0.152
+2021-04-12 15:02:06 INFO: - EVALUATING ON DEV DATA
+2021-04-12 15:02:57 CRITICAL: - concept:parentofperson Hits10:0.528, Hits5:0.375, Hits1:0.065 MRR:0.191
+2021-04-12 15:02:57 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 15:03:10 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.000, Hits1:0.000 MRR:0.005
+2021-04-12 15:03:10 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 15:03:31 CRITICAL: - concept:bankbankincountry Hits10:0.624, Hits5:0.515, Hits1:0.266 MRR:0.389
+2021-04-12 15:03:31 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 15:04:40 CRITICAL: - concept:cityalsoknownas Hits10:0.039, Hits5:0.014, Hits1:0.000 MRR:0.012
+2021-04-12 15:04:40 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 15:04:45 CRITICAL: - concept:sportusesstadium Hits10:0.089, Hits5:0.048, Hits1:0.008 MRR:0.032
+2021-04-12 15:04:45 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 15:04:45 CRITICAL: - HITS10: 0.283
+2021-04-12 15:04:45 CRITICAL: - HITS5: 0.210
+2021-04-12 15:04:45 CRITICAL: - HITS1: 0.076
+2021-04-12 15:04:45 CRITICAL: - MAP: 0.139
+2021-04-12 15:10:03 INFO: - EVALUATING ON DEV DATA
+2021-04-12 15:10:54 CRITICAL: - concept:parentofperson Hits10:0.477, Hits5:0.343, Hits1:0.051 MRR:0.178
+2021-04-12 15:10:54 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 15:11:08 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.013, Hits1:0.013 MRR:0.022
+2021-04-12 15:11:08 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 15:11:28 CRITICAL: - concept:bankbankincountry Hits10:0.677, Hits5:0.507, Hits1:0.314 MRR:0.411
+2021-04-12 15:11:28 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 15:12:35 CRITICAL: - concept:cityalsoknownas Hits10:0.028, Hits5:0.011, Hits1:0.000 MRR:0.012
+2021-04-12 15:12:35 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 15:12:39 CRITICAL: - concept:sportusesstadium Hits10:0.121, Hits5:0.089, Hits1:0.008 MRR:0.040
+2021-04-12 15:12:39 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 15:12:39 CRITICAL: - HITS10: 0.286
+2021-04-12 15:12:39 CRITICAL: - HITS5: 0.206
+2021-04-12 15:12:39 CRITICAL: - HITS1: 0.085
+2021-04-12 15:12:39 CRITICAL: - MAP: 0.144
+2021-04-12 15:17:56 INFO: - EVALUATING ON DEV DATA
+2021-04-12 15:18:46 CRITICAL: - concept:parentofperson Hits10:0.444, Hits5:0.269, Hits1:0.037 MRR:0.156
+2021-04-12 15:18:46 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 15:19:01 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.080, Hits5:0.027, Hits1:0.000 MRR:0.021
+2021-04-12 15:19:01 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 15:19:21 CRITICAL: - concept:bankbankincountry Hits10:0.624, Hits5:0.511, Hits1:0.262 MRR:0.384
+2021-04-12 15:19:21 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 15:20:27 CRITICAL: - concept:cityalsoknownas Hits10:0.048, Hits5:0.031, Hits1:0.000 MRR:0.018
+2021-04-12 15:20:27 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 15:20:32 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.024, Hits1:0.024 MRR:0.037
+2021-04-12 15:20:32 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 15:20:32 CRITICAL: - HITS10: 0.267
+2021-04-12 15:20:32 CRITICAL: - HITS5: 0.191
+2021-04-12 15:20:32 CRITICAL: - HITS1: 0.071
+2021-04-12 15:20:32 CRITICAL: - MAP: 0.134
+2021-04-12 15:25:57 INFO: - EVALUATING ON DEV DATA
+2021-04-12 15:26:47 CRITICAL: - concept:parentofperson Hits10:0.426, Hits5:0.278, Hits1:0.102 MRR:0.196
+2021-04-12 15:26:47 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 15:27:02 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.000, Hits1:0.000 MRR:0.010
+2021-04-12 15:27:02 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 15:27:22 CRITICAL: - concept:bankbankincountry Hits10:0.607, Hits5:0.450, Hits1:0.258 MRR:0.365
+2021-04-12 15:27:22 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 15:28:28 CRITICAL: - concept:cityalsoknownas Hits10:0.017, Hits5:0.003, Hits1:0.000 MRR:0.009
+2021-04-12 15:28:28 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 15:28:32 CRITICAL: - concept:sportusesstadium Hits10:0.121, Hits5:0.097, Hits1:0.016 MRR:0.050
+2021-04-12 15:28:32 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 15:28:32 CRITICAL: - HITS10: 0.255
+2021-04-12 15:28:32 CRITICAL: - HITS5: 0.176
+2021-04-12 15:28:32 CRITICAL: - HITS1: 0.083
+2021-04-12 15:28:32 CRITICAL: - MAP: 0.136
+2021-04-12 15:34:09 INFO: - EVALUATING ON DEV DATA
+2021-04-12 15:35:00 CRITICAL: - concept:parentofperson Hits10:0.449, Hits5:0.245, Hits1:0.042 MRR:0.149
+2021-04-12 15:35:00 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 15:35:12 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.013, Hits1:0.013 MRR:0.024
+2021-04-12 15:35:12 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 15:35:30 CRITICAL: - concept:bankbankincountry Hits10:0.633, Hits5:0.485, Hits1:0.262 MRR:0.372
+2021-04-12 15:35:30 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 15:36:32 CRITICAL: - concept:cityalsoknownas Hits10:0.020, Hits5:0.011, Hits1:0.000 MRR:0.011
+2021-04-12 15:36:32 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 15:36:38 CRITICAL: - concept:sportusesstadium Hits10:0.105, Hits5:0.024, Hits1:0.016 MRR:0.035
+2021-04-12 15:36:38 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 15:36:38 CRITICAL: - HITS10: 0.263
+2021-04-12 15:36:38 CRITICAL: - HITS5: 0.172
+2021-04-12 15:36:38 CRITICAL: - HITS1: 0.072
+2021-04-12 15:36:38 CRITICAL: - MAP: 0.127
+2021-04-12 15:42:22 INFO: - EVALUATING ON DEV DATA
+2021-04-12 15:43:11 CRITICAL: - concept:parentofperson Hits10:0.468, Hits5:0.273, Hits1:0.042 MRR:0.163
+2021-04-12 15:43:11 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 15:43:24 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.013, Hits1:0.000 MRR:0.009
+2021-04-12 15:43:24 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 15:43:42 CRITICAL: - concept:bankbankincountry Hits10:0.633, Hits5:0.511, Hits1:0.275 MRR:0.394
+2021-04-12 15:43:42 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 15:44:42 CRITICAL: - concept:cityalsoknownas Hits10:0.023, Hits5:0.011, Hits1:0.000 MRR:0.012
+2021-04-12 15:44:42 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 15:44:46 CRITICAL: - concept:sportusesstadium Hits10:0.073, Hits5:0.056, Hits1:0.016 MRR:0.037
+2021-04-12 15:44:46 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 15:44:46 CRITICAL: - HITS10: 0.265
+2021-04-12 15:44:46 CRITICAL: - HITS5: 0.188
+2021-04-12 15:44:46 CRITICAL: - HITS1: 0.074
+2021-04-12 15:44:46 CRITICAL: - MAP: 0.135
+2021-04-12 15:50:31 INFO: - EVALUATING ON DEV DATA
+2021-04-12 15:51:21 CRITICAL: - concept:parentofperson Hits10:0.458, Hits5:0.241, Hits1:0.037 MRR:0.144
+2021-04-12 15:51:21 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 15:51:34 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.013, Hits1:0.000 MRR:0.015
+2021-04-12 15:51:34 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 15:51:51 CRITICAL: - concept:bankbankincountry Hits10:0.655, Hits5:0.528, Hits1:0.249 MRR:0.364
+2021-04-12 15:51:51 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 15:52:54 CRITICAL: - concept:cityalsoknownas Hits10:0.023, Hits5:0.011, Hits1:0.000 MRR:0.012
+2021-04-12 15:52:54 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 15:52:58 CRITICAL: - concept:sportusesstadium Hits10:0.081, Hits5:0.024, Hits1:0.024 MRR:0.038
+2021-04-12 15:52:58 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 15:52:58 CRITICAL: - HITS10: 0.269
+2021-04-12 15:52:58 CRITICAL: - HITS5: 0.181
+2021-04-12 15:52:58 CRITICAL: - HITS1: 0.068
+2021-04-12 15:52:58 CRITICAL: - MAP: 0.125
+2021-04-12 15:58:45 INFO: - EVALUATING ON DEV DATA
+2021-04-12 15:59:35 CRITICAL: - concept:parentofperson Hits10:0.509, Hits5:0.319, Hits1:0.069 MRR:0.179
+2021-04-12 15:59:35 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 15:59:47 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.013, Hits1:0.013 MRR:0.019
+2021-04-12 15:59:47 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 16:00:05 CRITICAL: - concept:bankbankincountry Hits10:0.659, Hits5:0.463, Hits1:0.188 MRR:0.310
+2021-04-12 16:00:05 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 16:01:07 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.008, Hits1:0.000 MRR:0.012
+2021-04-12 16:01:07 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 16:01:12 CRITICAL: - concept:sportusesstadium Hits10:0.048, Hits5:0.032, Hits1:0.024 MRR:0.033
+2021-04-12 16:01:12 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 16:01:12 CRITICAL: - HITS10: 0.277
+2021-04-12 16:01:12 CRITICAL: - HITS5: 0.183
+2021-04-12 16:01:12 CRITICAL: - HITS1: 0.062
+2021-04-12 16:01:12 CRITICAL: - MAP: 0.119
+2021-04-12 16:06:59 INFO: - EVALUATING ON DEV DATA
+2021-04-12 16:07:50 CRITICAL: - concept:parentofperson Hits10:0.444, Hits5:0.264, Hits1:0.056 MRR:0.163
+2021-04-12 16:07:50 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 16:08:02 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.013, Hits1:0.000 MRR:0.005
+2021-04-12 16:08:02 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 16:08:19 CRITICAL: - concept:bankbankincountry Hits10:0.672, Hits5:0.520, Hits1:0.231 MRR:0.356
+2021-04-12 16:08:19 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 16:09:21 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.011, Hits1:0.003 MRR:0.012
+2021-04-12 16:09:21 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 16:09:25 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.032, Hits1:0.016 MRR:0.029
+2021-04-12 16:09:25 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 16:09:25 CRITICAL: - HITS10: 0.265
+2021-04-12 16:09:25 CRITICAL: - HITS5: 0.185
+2021-04-12 16:09:25 CRITICAL: - HITS1: 0.068
+2021-04-12 16:09:25 CRITICAL: - MAP: 0.125
+2021-04-12 16:15:12 INFO: - EVALUATING ON DEV DATA
+2021-04-12 16:16:01 CRITICAL: - concept:parentofperson Hits10:0.486, Hits5:0.333, Hits1:0.060 MRR:0.181
+2021-04-12 16:16:01 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 16:16:14 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.013, Hits1:0.013 MRR:0.021
+2021-04-12 16:16:14 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 16:16:31 CRITICAL: - concept:bankbankincountry Hits10:0.668, Hits5:0.511, Hits1:0.332 MRR:0.426
+2021-04-12 16:16:31 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 16:17:34 CRITICAL: - concept:cityalsoknownas Hits10:0.028, Hits5:0.020, Hits1:0.003 MRR:0.017
+2021-04-12 16:17:34 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 16:17:38 CRITICAL: - concept:sportusesstadium Hits10:0.065, Hits5:0.065, Hits1:0.048 MRR:0.057
+2021-04-12 16:17:38 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 16:17:38 CRITICAL: - HITS10: 0.278
+2021-04-12 16:17:38 CRITICAL: - HITS5: 0.205
+2021-04-12 16:17:38 CRITICAL: - HITS1: 0.097
+2021-04-12 16:17:38 CRITICAL: - MAP: 0.152
+2021-04-12 16:23:24 INFO: - EVALUATING ON DEV DATA
+2021-04-12 16:24:13 CRITICAL: - concept:parentofperson Hits10:0.477, Hits5:0.315, Hits1:0.037 MRR:0.173
+2021-04-12 16:24:13 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 16:24:25 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.013, Hits1:0.000 MRR:0.015
+2021-04-12 16:24:25 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 16:24:42 CRITICAL: - concept:bankbankincountry Hits10:0.664, Hits5:0.528, Hits1:0.205 MRR:0.343
+2021-04-12 16:24:42 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 16:25:43 CRITICAL: - concept:cityalsoknownas Hits10:0.028, Hits5:0.011, Hits1:0.000 MRR:0.012
+2021-04-12 16:25:43 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 16:25:48 CRITICAL: - concept:sportusesstadium Hits10:0.129, Hits5:0.089, Hits1:0.048 MRR:0.067
+2021-04-12 16:25:48 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 16:25:48 CRITICAL: - HITS10: 0.283
+2021-04-12 16:25:48 CRITICAL: - HITS5: 0.205
+2021-04-12 16:25:48 CRITICAL: - HITS1: 0.061
+2021-04-12 16:25:48 CRITICAL: - MAP: 0.130
+2021-04-12 16:31:33 INFO: - EVALUATING ON DEV DATA
+2021-04-12 16:32:22 CRITICAL: - concept:parentofperson Hits10:0.454, Hits5:0.259, Hits1:0.056 MRR:0.157
+2021-04-12 16:32:22 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 16:32:33 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.013, Hits1:0.000 MRR:0.012
+2021-04-12 16:32:33 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 16:32:46 CRITICAL: - concept:bankbankincountry Hits10:0.659, Hits5:0.537, Hits1:0.284 MRR:0.385
+2021-04-12 16:32:46 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 16:33:43 CRITICAL: - concept:cityalsoknownas Hits10:0.014, Hits5:0.006, Hits1:0.000 MRR:0.013
+2021-04-12 16:33:43 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 16:33:46 CRITICAL: - concept:sportusesstadium Hits10:0.048, Hits5:0.032, Hits1:0.016 MRR:0.029
+2021-04-12 16:33:46 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 16:33:46 CRITICAL: - HITS10: 0.261
+2021-04-12 16:33:46 CRITICAL: - HITS5: 0.186
+2021-04-12 16:33:46 CRITICAL: - HITS1: 0.079
+2021-04-12 16:33:46 CRITICAL: - MAP: 0.131
+2021-04-12 16:40:05 INFO: - EVALUATING ON DEV DATA
+2021-04-12 16:40:54 CRITICAL: - concept:parentofperson Hits10:0.477, Hits5:0.361, Hits1:0.079 MRR:0.208
+2021-04-12 16:40:54 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 16:41:05 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.080, Hits5:0.027, Hits1:0.013 MRR:0.031
+2021-04-12 16:41:05 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 16:41:21 CRITICAL: - concept:bankbankincountry Hits10:0.664, Hits5:0.524, Hits1:0.227 MRR:0.349
+2021-04-12 16:41:21 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 16:42:23 CRITICAL: - concept:cityalsoknownas Hits10:0.020, Hits5:0.006, Hits1:0.000 MRR:0.010
+2021-04-12 16:42:23 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 16:42:28 CRITICAL: - concept:sportusesstadium Hits10:0.081, Hits5:0.040, Hits1:0.024 MRR:0.041
+2021-04-12 16:42:28 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 16:42:28 CRITICAL: - HITS10: 0.278
+2021-04-12 16:42:28 CRITICAL: - HITS5: 0.207
+2021-04-12 16:42:28 CRITICAL: - HITS1: 0.073
+2021-04-12 16:42:28 CRITICAL: - MAP: 0.136
+2021-04-12 16:48:57 INFO: - EVALUATING ON DEV DATA
+2021-04-12 16:49:48 CRITICAL: - concept:parentofperson Hits10:0.486, Hits5:0.324, Hits1:0.083 MRR:0.207
+2021-04-12 16:49:48 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 16:50:00 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.000, Hits1:0.000 MRR:0.013
+2021-04-12 16:50:00 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 16:50:20 CRITICAL: - concept:bankbankincountry Hits10:0.659, Hits5:0.520, Hits1:0.183 MRR:0.324
+2021-04-12 16:50:20 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 16:51:24 CRITICAL: - concept:cityalsoknownas Hits10:0.023, Hits5:0.008, Hits1:0.000 MRR:0.012
+2021-04-12 16:51:24 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 16:51:29 CRITICAL: - concept:sportusesstadium Hits10:0.056, Hits5:0.040, Hits1:0.008 MRR:0.024
+2021-04-12 16:51:29 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 16:51:29 CRITICAL: - HITS10: 0.275
+2021-04-12 16:51:29 CRITICAL: - HITS5: 0.197
+2021-04-12 16:51:29 CRITICAL: - HITS1: 0.061
+2021-04-12 16:51:29 CRITICAL: - MAP: 0.127
+2021-04-12 16:57:44 INFO: - EVALUATING ON DEV DATA
+2021-04-12 16:58:35 CRITICAL: - concept:parentofperson Hits10:0.449, Hits5:0.329, Hits1:0.060 MRR:0.185
+2021-04-12 16:58:35 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 16:58:51 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.080, Hits5:0.027, Hits1:0.000 MRR:0.023
+2021-04-12 16:58:51 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 16:59:15 CRITICAL: - concept:bankbankincountry Hits10:0.686, Hits5:0.541, Hits1:0.249 MRR:0.373
+2021-04-12 16:59:15 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 17:00:17 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.011, Hits1:0.000 MRR:0.011
+2021-04-12 17:00:17 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 17:00:21 CRITICAL: - concept:sportusesstadium Hits10:0.048, Hits5:0.048, Hits1:0.008 MRR:0.025
+2021-04-12 17:00:21 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 17:00:21 CRITICAL: - HITS10: 0.275
+2021-04-12 17:00:21 CRITICAL: - HITS5: 0.207
+2021-04-12 17:00:21 CRITICAL: - HITS1: 0.071
+2021-04-12 17:00:21 CRITICAL: - MAP: 0.134
+2021-04-12 17:06:41 INFO: - EVALUATING ON DEV DATA
+2021-04-12 17:07:35 CRITICAL: - concept:parentofperson Hits10:0.375, Hits5:0.273, Hits1:0.065 MRR:0.163
+2021-04-12 17:07:35 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 17:07:47 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.067, Hits5:0.013, Hits1:0.013 MRR:0.028
+2021-04-12 17:07:47 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 17:08:04 CRITICAL: - concept:bankbankincountry Hits10:0.672, Hits5:0.568, Hits1:0.162 MRR:0.318
+2021-04-12 17:08:04 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 17:09:08 CRITICAL: - concept:cityalsoknownas Hits10:0.031, Hits5:0.008, Hits1:0.000 MRR:0.012
+2021-04-12 17:09:08 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 17:09:12 CRITICAL: - concept:sportusesstadium Hits10:0.032, Hits5:0.024, Hits1:0.000 MRR:0.015
+2021-04-12 17:09:12 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 17:09:12 CRITICAL: - HITS10: 0.255
+2021-04-12 17:09:12 CRITICAL: - HITS5: 0.196
+2021-04-12 17:09:12 CRITICAL: - HITS1: 0.052
+2021-04-12 17:09:12 CRITICAL: - MAP: 0.116
+2021-04-12 17:15:32 INFO: - EVALUATING ON DEV DATA
+2021-04-12 17:16:21 CRITICAL: - concept:parentofperson Hits10:0.412, Hits5:0.319, Hits1:0.125 MRR:0.218
+2021-04-12 17:16:21 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 17:16:32 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.013, Hits1:0.000 MRR:0.018
+2021-04-12 17:16:32 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 17:16:49 CRITICAL: - concept:bankbankincountry Hits10:0.672, Hits5:0.454, Hits1:0.223 MRR:0.342
+2021-04-12 17:16:49 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 17:17:48 CRITICAL: - concept:cityalsoknownas Hits10:0.020, Hits5:0.008, Hits1:0.000 MRR:0.010
+2021-04-12 17:17:48 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 17:17:52 CRITICAL: - concept:sportusesstadium Hits10:0.073, Hits5:0.056, Hits1:0.040 MRR:0.057
+2021-04-12 17:17:52 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 17:17:52 CRITICAL: - HITS10: 0.262
+2021-04-12 17:17:52 CRITICAL: - HITS5: 0.184
+2021-04-12 17:17:52 CRITICAL: - HITS1: 0.083
+2021-04-12 17:17:52 CRITICAL: - MAP: 0.138
+2021-04-12 17:24:09 INFO: - EVALUATING ON DEV DATA
+2021-04-12 17:25:00 CRITICAL: - concept:parentofperson Hits10:0.389, Hits5:0.241, Hits1:0.065 MRR:0.161
+2021-04-12 17:25:00 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 17:25:13 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.027, Hits1:0.013 MRR:0.031
+2021-04-12 17:25:13 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 17:25:29 CRITICAL: - concept:bankbankincountry Hits10:0.686, Hits5:0.568, Hits1:0.183 MRR:0.351
+2021-04-12 17:25:29 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 17:26:28 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.008, Hits1:0.003 MRR:0.013
+2021-04-12 17:26:28 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 17:26:31 CRITICAL: - concept:sportusesstadium Hits10:0.129, Hits5:0.040, Hits1:0.024 MRR:0.045
+2021-04-12 17:26:31 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 17:26:31 CRITICAL: - HITS10: 0.270
+2021-04-12 17:26:31 CRITICAL: - HITS5: 0.192
+2021-04-12 17:26:31 CRITICAL: - HITS1: 0.061
+2021-04-12 17:26:31 CRITICAL: - MAP: 0.128
+2021-04-12 17:32:59 INFO: - EVALUATING ON DEV DATA
+2021-04-12 17:33:50 CRITICAL: - concept:parentofperson Hits10:0.347, Hits5:0.259, Hits1:0.051 MRR:0.148
+2021-04-12 17:33:50 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 17:34:05 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.040, Hits1:0.000 MRR:0.018
+2021-04-12 17:34:05 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 17:34:21 CRITICAL: - concept:bankbankincountry Hits10:0.703, Hits5:0.572, Hits1:0.210 MRR:0.365
+2021-04-12 17:34:21 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 17:35:19 CRITICAL: - concept:cityalsoknownas Hits10:0.034, Hits5:0.020, Hits1:0.000 MRR:0.013
+2021-04-12 17:35:19 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 17:35:21 CRITICAL: - concept:sportusesstadium Hits10:0.024, Hits5:0.024, Hits1:0.008 MRR:0.019
+2021-04-12 17:35:21 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 17:35:21 CRITICAL: - HITS10: 0.254
+2021-04-12 17:35:21 CRITICAL: - HITS5: 0.200
+2021-04-12 17:35:21 CRITICAL: - HITS1: 0.060
+2021-04-12 17:35:21 CRITICAL: - MAP: 0.124
+2021-04-12 17:41:41 INFO: - EVALUATING ON DEV DATA
+2021-04-12 17:42:31 CRITICAL: - concept:parentofperson Hits10:0.412, Hits5:0.310, Hits1:0.069 MRR:0.174
+2021-04-12 17:42:31 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 17:42:43 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.080, Hits5:0.013, Hits1:0.000 MRR:0.015
+2021-04-12 17:42:43 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 17:43:00 CRITICAL: - concept:bankbankincountry Hits10:0.651, Hits5:0.559, Hits1:0.183 MRR:0.346
+2021-04-12 17:43:00 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 17:44:02 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.011, Hits1:0.003 MRR:0.014
+2021-04-12 17:44:02 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 17:44:06 CRITICAL: - concept:sportusesstadium Hits10:0.032, Hits5:0.024, Hits1:0.016 MRR:0.025
+2021-04-12 17:44:06 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 17:44:06 CRITICAL: - HITS10: 0.257
+2021-04-12 17:44:06 CRITICAL: - HITS5: 0.203
+2021-04-12 17:44:06 CRITICAL: - HITS1: 0.060
+2021-04-12 17:44:06 CRITICAL: - MAP: 0.126
+2021-04-12 17:50:31 INFO: - EVALUATING ON DEV DATA
+2021-04-12 17:51:17 CRITICAL: - concept:parentofperson Hits10:0.407, Hits5:0.278, Hits1:0.023 MRR:0.145
+2021-04-12 17:51:17 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 17:51:27 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.013, Hits1:0.000 MRR:0.014
+2021-04-12 17:51:27 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 17:51:42 CRITICAL: - concept:bankbankincountry Hits10:0.668, Hits5:0.568, Hits1:0.227 MRR:0.369
+2021-04-12 17:51:42 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 17:52:41 CRITICAL: - concept:cityalsoknownas Hits10:0.031, Hits5:0.017, Hits1:0.011 MRR:0.024
+2021-04-12 17:52:41 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 17:52:44 CRITICAL: - concept:sportusesstadium Hits10:0.024, Hits5:0.024, Hits1:0.008 MRR:0.020
+2021-04-12 17:52:44 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 17:52:44 CRITICAL: - HITS10: 0.259
+2021-04-12 17:52:44 CRITICAL: - HITS5: 0.200
+2021-04-12 17:52:44 CRITICAL: - HITS1: 0.062
+2021-04-12 17:52:44 CRITICAL: - MAP: 0.128
+2021-04-12 17:58:42 INFO: - EVALUATING ON DEV DATA
+2021-04-12 17:59:32 CRITICAL: - concept:parentofperson Hits10:0.431, Hits5:0.306, Hits1:0.125 MRR:0.213
+2021-04-12 17:59:32 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 17:59:45 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.000, Hits1:0.000 MRR:0.012
+2021-04-12 17:59:45 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 18:00:03 CRITICAL: - concept:bankbankincountry Hits10:0.681, Hits5:0.507, Hits1:0.240 MRR:0.377
+2021-04-12 18:00:03 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 18:01:08 CRITICAL: - concept:cityalsoknownas Hits10:0.031, Hits5:0.014, Hits1:0.006 MRR:0.020
+2021-04-12 18:01:08 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 18:01:12 CRITICAL: - concept:sportusesstadium Hits10:0.056, Hits5:0.048, Hits1:0.016 MRR:0.036
+2021-04-12 18:01:12 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 18:01:12 CRITICAL: - HITS10: 0.271
+2021-04-12 18:01:12 CRITICAL: - HITS5: 0.193
+2021-04-12 18:01:12 CRITICAL: - HITS1: 0.086
+2021-04-12 18:01:12 CRITICAL: - MAP: 0.145
+2021-04-12 18:06:52 INFO: - EVALUATING ON DEV DATA
+2021-04-12 18:07:42 CRITICAL: - concept:parentofperson Hits10:0.412, Hits5:0.292, Hits1:0.102 MRR:0.193
+2021-04-12 18:07:42 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 18:07:54 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.067, Hits5:0.000, Hits1:0.000 MRR:0.015
+2021-04-12 18:07:54 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 18:08:12 CRITICAL: - concept:bankbankincountry Hits10:0.677, Hits5:0.485, Hits1:0.197 MRR:0.332
+2021-04-12 18:08:12 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 18:09:17 CRITICAL: - concept:cityalsoknownas Hits10:0.034, Hits5:0.008, Hits1:0.000 MRR:0.013
+2021-04-12 18:09:17 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 18:09:21 CRITICAL: - concept:sportusesstadium Hits10:0.016, Hits5:0.016, Hits1:0.016 MRR:0.020
+2021-04-12 18:09:21 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 18:09:21 CRITICAL: - HITS10: 0.263
+2021-04-12 18:09:21 CRITICAL: - HITS5: 0.179
+2021-04-12 18:09:21 CRITICAL: - HITS1: 0.069
+2021-04-12 18:09:21 CRITICAL: - MAP: 0.126
+2021-04-12 18:15:01 INFO: - EVALUATING ON DEV DATA
+2021-04-12 18:15:50 CRITICAL: - concept:parentofperson Hits10:0.380, Hits5:0.255, Hits1:0.051 MRR:0.159
+2021-04-12 18:15:50 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 18:16:04 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.000, Hits1:0.000 MRR:0.012
+2021-04-12 18:16:04 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 18:16:22 CRITICAL: - concept:bankbankincountry Hits10:0.681, Hits5:0.533, Hits1:0.192 MRR:0.351
+2021-04-12 18:16:22 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 18:17:26 CRITICAL: - concept:cityalsoknownas Hits10:0.028, Hits5:0.008, Hits1:0.000 MRR:0.013
+2021-04-12 18:17:26 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 18:17:30 CRITICAL: - concept:sportusesstadium Hits10:0.089, Hits5:0.073, Hits1:0.032 MRR:0.050
+2021-04-12 18:17:30 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 18:17:30 CRITICAL: - HITS10: 0.261
+2021-04-12 18:17:30 CRITICAL: - HITS5: 0.189
+2021-04-12 18:17:30 CRITICAL: - HITS1: 0.059
+2021-04-12 18:17:30 CRITICAL: - MAP: 0.127
+2021-04-12 18:23:10 INFO: - EVALUATING ON DEV DATA
+2021-04-12 18:23:58 CRITICAL: - concept:parentofperson Hits10:0.440, Hits5:0.310, Hits1:0.134 MRR:0.226
+2021-04-12 18:23:58 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 18:24:11 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.040, Hits1:0.000 MRR:0.018
+2021-04-12 18:24:11 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 18:24:29 CRITICAL: - concept:bankbankincountry Hits10:0.655, Hits5:0.480, Hits1:0.175 MRR:0.318
+2021-04-12 18:24:29 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 18:25:34 CRITICAL: - concept:cityalsoknownas Hits10:0.028, Hits5:0.014, Hits1:0.000 MRR:0.013
+2021-04-12 18:25:34 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 18:25:38 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.032, Hits1:0.008 MRR:0.022
+2021-04-12 18:25:38 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 18:25:38 CRITICAL: - HITS10: 0.264
+2021-04-12 18:25:38 CRITICAL: - HITS5: 0.189
+2021-04-12 18:25:38 CRITICAL: - HITS1: 0.070
+2021-04-12 18:25:38 CRITICAL: - MAP: 0.131
+2021-04-12 18:31:14 INFO: - EVALUATING ON DEV DATA
+2021-04-12 18:32:04 CRITICAL: - concept:parentofperson Hits10:0.398, Hits5:0.269, Hits1:0.028 MRR:0.128
+2021-04-12 18:32:04 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 18:32:17 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.080, Hits5:0.027, Hits1:0.000 MRR:0.019
+2021-04-12 18:32:17 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 18:32:36 CRITICAL: - concept:bankbankincountry Hits10:0.681, Hits5:0.537, Hits1:0.223 MRR:0.364
+2021-04-12 18:32:36 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 18:33:40 CRITICAL: - concept:cityalsoknownas Hits10:0.056, Hits5:0.020, Hits1:0.006 MRR:0.022
+2021-04-12 18:33:40 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 18:33:44 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.024, Hits1:0.016 MRR:0.024
+2021-04-12 18:33:44 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 18:33:44 CRITICAL: - HITS10: 0.273
+2021-04-12 18:33:44 CRITICAL: - HITS5: 0.193
+2021-04-12 18:33:44 CRITICAL: - HITS1: 0.061
+2021-04-12 18:33:44 CRITICAL: - MAP: 0.123
+2021-04-12 18:39:15 INFO: - EVALUATING ON DEV DATA
+2021-04-12 18:40:05 CRITICAL: - concept:parentofperson Hits10:0.468, Hits5:0.213, Hits1:0.042 MRR:0.141
+2021-04-12 18:40:05 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 18:40:18 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.080, Hits5:0.040, Hits1:0.000 MRR:0.020
+2021-04-12 18:40:18 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 18:40:37 CRITICAL: - concept:bankbankincountry Hits10:0.659, Hits5:0.563, Hits1:0.183 MRR:0.348
+2021-04-12 18:40:37 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 18:41:43 CRITICAL: - concept:cityalsoknownas Hits10:0.037, Hits5:0.020, Hits1:0.006 MRR:0.018
+2021-04-12 18:41:43 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 18:41:46 CRITICAL: - concept:sportusesstadium Hits10:0.024, Hits5:0.024, Hits1:0.008 MRR:0.019
+2021-04-12 18:41:46 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 18:41:46 CRITICAL: - HITS10: 0.274
+2021-04-12 18:41:46 CRITICAL: - HITS5: 0.188
+2021-04-12 18:41:46 CRITICAL: - HITS1: 0.054
+2021-04-12 18:41:46 CRITICAL: - MAP: 0.121
+2021-04-12 18:47:20 INFO: - EVALUATING ON DEV DATA
+2021-04-12 18:48:10 CRITICAL: - concept:parentofperson Hits10:0.384, Hits5:0.208, Hits1:0.051 MRR:0.143
+2021-04-12 18:48:10 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 18:48:23 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.013, Hits1:0.000 MRR:0.012
+2021-04-12 18:48:23 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 18:48:41 CRITICAL: - concept:bankbankincountry Hits10:0.664, Hits5:0.546, Hits1:0.231 MRR:0.370
+2021-04-12 18:48:41 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 18:49:45 CRITICAL: - concept:cityalsoknownas Hits10:0.034, Hits5:0.017, Hits1:0.000 MRR:0.016
+2021-04-12 18:49:45 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 18:49:49 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.032, Hits1:0.008 MRR:0.028
+2021-04-12 18:49:49 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 18:49:49 CRITICAL: - HITS10: 0.256
+2021-04-12 18:49:49 CRITICAL: - HITS5: 0.181
+2021-04-12 18:49:49 CRITICAL: - HITS1: 0.065
+2021-04-12 18:49:49 CRITICAL: - MAP: 0.126
+2021-04-12 18:55:23 INFO: - EVALUATING ON DEV DATA
+2021-04-12 18:56:13 CRITICAL: - concept:parentofperson Hits10:0.426, Hits5:0.296, Hits1:0.060 MRR:0.167
+2021-04-12 18:56:13 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 18:56:27 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.013, Hits1:0.000 MRR:0.011
+2021-04-12 18:56:27 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 18:56:47 CRITICAL: - concept:bankbankincountry Hits10:0.668, Hits5:0.546, Hits1:0.201 MRR:0.359
+2021-04-12 18:56:47 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 18:57:52 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.011, Hits1:0.003 MRR:0.014
+2021-04-12 18:57:52 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 18:57:55 CRITICAL: - concept:sportusesstadium Hits10:0.024, Hits5:0.016, Hits1:0.016 MRR:0.024
+2021-04-12 18:57:55 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 18:57:55 CRITICAL: - HITS10: 0.260
+2021-04-12 18:57:55 CRITICAL: - HITS5: 0.196
+2021-04-12 18:57:55 CRITICAL: - HITS1: 0.062
+2021-04-12 18:57:55 CRITICAL: - MAP: 0.127
+2021-04-12 19:03:30 INFO: - EVALUATING ON DEV DATA
+2021-04-12 19:04:20 CRITICAL: - concept:parentofperson Hits10:0.375, Hits5:0.190, Hits1:0.046 MRR:0.135
+2021-04-12 19:04:20 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 19:04:33 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.000, Hits1:0.000 MRR:0.006
+2021-04-12 19:04:33 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 19:04:52 CRITICAL: - concept:bankbankincountry Hits10:0.699, Hits5:0.559, Hits1:0.227 MRR:0.370
+2021-04-12 19:04:52 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 19:05:57 CRITICAL: - concept:cityalsoknownas Hits10:0.034, Hits5:0.023, Hits1:0.003 MRR:0.019
+2021-04-12 19:05:57 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 19:06:02 CRITICAL: - concept:sportusesstadium Hits10:0.065, Hits5:0.056, Hits1:0.008 MRR:0.034
+2021-04-12 19:06:02 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 19:06:02 CRITICAL: - HITS10: 0.263
+2021-04-12 19:06:02 CRITICAL: - HITS5: 0.184
+2021-04-12 19:06:02 CRITICAL: - HITS1: 0.064
+2021-04-12 19:06:02 CRITICAL: - MAP: 0.125
+2021-04-12 19:11:35 INFO: - EVALUATING ON DEV DATA
+2021-04-12 19:12:25 CRITICAL: - concept:parentofperson Hits10:0.361, Hits5:0.218, Hits1:0.060 MRR:0.150
+2021-04-12 19:12:25 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 19:12:39 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.000, Hits1:0.000 MRR:0.005
+2021-04-12 19:12:39 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 19:12:57 CRITICAL: - concept:bankbankincountry Hits10:0.694, Hits5:0.546, Hits1:0.210 MRR:0.355
+2021-04-12 19:12:57 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 19:14:01 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.006, Hits1:0.003 MRR:0.012
+2021-04-12 19:14:01 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 19:14:05 CRITICAL: - concept:sportusesstadium Hits10:0.081, Hits5:0.024, Hits1:0.008 MRR:0.031
+2021-04-12 19:14:05 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 19:14:05 CRITICAL: - HITS10: 0.257
+2021-04-12 19:14:05 CRITICAL: - HITS5: 0.177
+2021-04-12 19:14:05 CRITICAL: - HITS1: 0.063
+2021-04-12 19:14:05 CRITICAL: - MAP: 0.122
+2021-04-12 19:19:38 INFO: - EVALUATING ON DEV DATA
+2021-04-12 19:20:28 CRITICAL: - concept:parentofperson Hits10:0.333, Hits5:0.194, Hits1:0.069 MRR:0.150
+2021-04-12 19:20:28 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 19:20:42 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.013, Hits1:0.000 MRR:0.012
+2021-04-12 19:20:42 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 19:21:01 CRITICAL: - concept:bankbankincountry Hits10:0.694, Hits5:0.520, Hits1:0.227 MRR:0.358
+2021-04-12 19:21:01 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 19:22:08 CRITICAL: - concept:cityalsoknownas Hits10:0.023, Hits5:0.008, Hits1:0.000 MRR:0.010
+2021-04-12 19:22:08 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 19:22:12 CRITICAL: - concept:sportusesstadium Hits10:0.056, Hits5:0.016, Hits1:0.000 MRR:0.017
+2021-04-12 19:22:12 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 19:22:12 CRITICAL: - HITS10: 0.248
+2021-04-12 19:22:12 CRITICAL: - HITS5: 0.167
+2021-04-12 19:22:12 CRITICAL: - HITS1: 0.067
+2021-04-12 19:22:12 CRITICAL: - MAP: 0.121
+2021-04-12 19:27:45 INFO: - EVALUATING ON DEV DATA
+2021-04-12 19:28:36 CRITICAL: - concept:parentofperson Hits10:0.333, Hits5:0.222, Hits1:0.046 MRR:0.138
+2021-04-12 19:28:36 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 19:28:49 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.013, Hits1:0.000 MRR:0.008
+2021-04-12 19:28:49 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 19:29:08 CRITICAL: - concept:bankbankincountry Hits10:0.681, Hits5:0.550, Hits1:0.183 MRR:0.324
+2021-04-12 19:29:08 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 19:30:15 CRITICAL: - concept:cityalsoknownas Hits10:0.023, Hits5:0.011, Hits1:0.000 MRR:0.011
+2021-04-12 19:30:15 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 19:30:19 CRITICAL: - concept:sportusesstadium Hits10:0.089, Hits5:0.056, Hits1:0.040 MRR:0.054
+2021-04-12 19:30:19 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 19:30:19 CRITICAL: - HITS10: 0.248
+2021-04-12 19:30:19 CRITICAL: - HITS5: 0.186
+2021-04-12 19:30:19 CRITICAL: - HITS1: 0.057
+2021-04-12 19:30:19 CRITICAL: - MAP: 0.116
+2021-04-12 19:35:53 INFO: - EVALUATING ON DEV DATA
+2021-04-12 19:36:42 CRITICAL: - concept:parentofperson Hits10:0.407, Hits5:0.231, Hits1:0.079 MRR:0.164
+2021-04-12 19:36:42 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 19:36:55 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.000, Hits5:0.000, Hits1:0.000 MRR:0.005
+2021-04-12 19:36:55 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 19:37:13 CRITICAL: - concept:bankbankincountry Hits10:0.690, Hits5:0.572, Hits1:0.231 MRR:0.363
+2021-04-12 19:37:13 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 19:38:20 CRITICAL: - concept:cityalsoknownas Hits10:0.037, Hits5:0.014, Hits1:0.003 MRR:0.018
+2021-04-12 19:38:20 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 19:38:25 CRITICAL: - concept:sportusesstadium Hits10:0.016, Hits5:0.016, Hits1:0.000 MRR:0.009
+2021-04-12 19:38:25 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 19:38:25 CRITICAL: - HITS10: 0.261
+2021-04-12 19:38:25 CRITICAL: - HITS5: 0.188
+2021-04-12 19:38:25 CRITICAL: - HITS1: 0.071
+2021-04-12 19:38:25 CRITICAL: - MAP: 0.127
+2021-04-12 19:43:56 INFO: - EVALUATING ON DEV DATA
+2021-04-12 19:44:44 CRITICAL: - concept:parentofperson Hits10:0.421, Hits5:0.301, Hits1:0.088 MRR:0.189
+2021-04-12 19:44:44 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 19:44:57 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.000, Hits1:0.000 MRR:0.007
+2021-04-12 19:44:57 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 19:45:14 CRITICAL: - concept:bankbankincountry Hits10:0.681, Hits5:0.520, Hits1:0.245 MRR:0.370
+2021-04-12 19:45:14 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 19:46:21 CRITICAL: - concept:cityalsoknownas Hits10:0.023, Hits5:0.003, Hits1:0.003 MRR:0.012
+2021-04-12 19:46:21 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 19:46:26 CRITICAL: - concept:sportusesstadium Hits10:0.008, Hits5:0.000, Hits1:0.000 MRR:0.006
+2021-04-12 19:46:26 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 19:46:26 CRITICAL: - HITS10: 0.259
+2021-04-12 19:46:26 CRITICAL: - HITS5: 0.185
+2021-04-12 19:46:26 CRITICAL: - HITS1: 0.076
+2021-04-12 19:46:26 CRITICAL: - MAP: 0.131
+2021-04-12 19:51:57 INFO: - EVALUATING ON DEV DATA
+2021-04-12 19:52:47 CRITICAL: - concept:parentofperson Hits10:0.435, Hits5:0.292, Hits1:0.111 MRR:0.208
+2021-04-12 19:52:47 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 19:53:00 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.013, Hits1:0.000 MRR:0.008
+2021-04-12 19:53:00 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 19:53:18 CRITICAL: - concept:bankbankincountry Hits10:0.690, Hits5:0.537, Hits1:0.245 MRR:0.374
+2021-04-12 19:53:18 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 19:54:21 CRITICAL: - concept:cityalsoknownas Hits10:0.020, Hits5:0.014, Hits1:0.000 MRR:0.011
+2021-04-12 19:54:21 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 19:54:25 CRITICAL: - concept:sportusesstadium Hits10:0.024, Hits5:0.024, Hits1:0.016 MRR:0.023
+2021-04-12 19:54:25 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 19:54:25 CRITICAL: - HITS10: 0.264
+2021-04-12 19:54:25 CRITICAL: - HITS5: 0.195
+2021-04-12 19:54:25 CRITICAL: - HITS1: 0.082
+2021-04-12 19:54:25 CRITICAL: - MAP: 0.138
+2021-04-12 19:59:55 INFO: - EVALUATING ON DEV DATA
+2021-04-12 20:00:46 CRITICAL: - concept:parentofperson Hits10:0.417, Hits5:0.287, Hits1:0.056 MRR:0.169
+2021-04-12 20:00:46 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 20:00:58 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.053, Hits1:0.000 MRR:0.014
+2021-04-12 20:00:58 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 20:01:17 CRITICAL: - concept:bankbankincountry Hits10:0.672, Hits5:0.568, Hits1:0.201 MRR:0.351
+2021-04-12 20:01:17 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 20:02:20 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.017, Hits1:0.000 MRR:0.014
+2021-04-12 20:02:20 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 20:02:24 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.024, Hits1:0.008 MRR:0.022
+2021-04-12 20:02:24 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 20:02:24 CRITICAL: - HITS10: 0.262
+2021-04-12 20:02:24 CRITICAL: - HITS5: 0.205
+2021-04-12 20:02:24 CRITICAL: - HITS1: 0.059
+2021-04-12 20:02:24 CRITICAL: - MAP: 0.125
+2021-04-12 20:07:55 INFO: - EVALUATING ON DEV DATA
+2021-04-12 20:08:46 CRITICAL: - concept:parentofperson Hits10:0.444, Hits5:0.310, Hits1:0.056 MRR:0.168
+2021-04-12 20:08:46 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 20:08:59 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.013, Hits1:0.000 MRR:0.008
+2021-04-12 20:08:59 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 20:09:17 CRITICAL: - concept:bankbankincountry Hits10:0.659, Hits5:0.559, Hits1:0.218 MRR:0.358
+2021-04-12 20:09:17 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 20:10:22 CRITICAL: - concept:cityalsoknownas Hits10:0.020, Hits5:0.011, Hits1:0.000 MRR:0.013
+2021-04-12 20:10:22 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 20:10:27 CRITICAL: - concept:sportusesstadium Hits10:0.024, Hits5:0.016, Hits1:0.008 MRR:0.015
+2021-04-12 20:10:27 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 20:10:27 CRITICAL: - HITS10: 0.258
+2021-04-12 20:10:27 CRITICAL: - HITS5: 0.202
+2021-04-12 20:10:27 CRITICAL: - HITS1: 0.063
+2021-04-12 20:10:27 CRITICAL: - MAP: 0.126
+2021-04-12 20:15:32 INFO: - EVALUATING ON DEV DATA
+2021-04-12 20:16:23 CRITICAL: - concept:parentofperson Hits10:0.454, Hits5:0.301, Hits1:0.106 MRR:0.214
+2021-04-12 20:16:23 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 20:16:37 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.067, Hits5:0.040, Hits1:0.013 MRR:0.025
+2021-04-12 20:16:37 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 20:16:57 CRITICAL: - concept:bankbankincountry Hits10:0.694, Hits5:0.559, Hits1:0.227 MRR:0.367
+2021-04-12 20:16:57 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 20:18:04 CRITICAL: - concept:cityalsoknownas Hits10:0.031, Hits5:0.006, Hits1:0.000 MRR:0.015
+2021-04-12 20:18:04 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 20:18:09 CRITICAL: - concept:sportusesstadium Hits10:0.016, Hits5:0.016, Hits1:0.008 MRR:0.015
+2021-04-12 20:18:09 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 20:18:09 CRITICAL: - HITS10: 0.275
+2021-04-12 20:18:09 CRITICAL: - HITS5: 0.200
+2021-04-12 20:18:09 CRITICAL: - HITS1: 0.077
+2021-04-12 20:18:09 CRITICAL: - MAP: 0.140
+2021-04-12 20:23:14 INFO: - EVALUATING ON DEV DATA
+2021-04-12 20:24:05 CRITICAL: - concept:parentofperson Hits10:0.458, Hits5:0.338, Hits1:0.102 MRR:0.216
+2021-04-12 20:24:05 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 20:24:19 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.027, Hits1:0.000 MRR:0.012
+2021-04-12 20:24:19 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 20:24:38 CRITICAL: - concept:bankbankincountry Hits10:0.664, Hits5:0.520, Hits1:0.271 MRR:0.382
+2021-04-12 20:24:38 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 20:25:45 CRITICAL: - concept:cityalsoknownas Hits10:0.014, Hits5:0.008, Hits1:0.000 MRR:0.010
+2021-04-12 20:25:45 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 20:25:49 CRITICAL: - concept:sportusesstadium Hits10:0.008, Hits5:0.008, Hits1:0.000 MRR:0.008
+2021-04-12 20:25:49 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 20:25:49 CRITICAL: - HITS10: 0.259
+2021-04-12 20:25:49 CRITICAL: - HITS5: 0.198
+2021-04-12 20:25:49 CRITICAL: - HITS1: 0.084
+2021-04-12 20:25:49 CRITICAL: - MAP: 0.140
+2021-04-12 20:30:55 INFO: - EVALUATING ON DEV DATA
+2021-04-12 20:31:45 CRITICAL: - concept:parentofperson Hits10:0.398, Hits5:0.296, Hits1:0.065 MRR:0.170
+2021-04-12 20:31:45 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 20:31:59 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.027, Hits1:0.000 MRR:0.014
+2021-04-12 20:31:59 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 20:32:19 CRITICAL: - concept:bankbankincountry Hits10:0.633, Hits5:0.472, Hits1:0.258 MRR:0.369
+2021-04-12 20:32:19 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 20:33:25 CRITICAL: - concept:cityalsoknownas Hits10:0.020, Hits5:0.011, Hits1:0.000 MRR:0.012
+2021-04-12 20:33:25 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 20:33:30 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.032, Hits1:0.032 MRR:0.038
+2021-04-12 20:33:30 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 20:33:30 CRITICAL: - HITS10: 0.247
+2021-04-12 20:33:30 CRITICAL: - HITS5: 0.182
+2021-04-12 20:33:30 CRITICAL: - HITS1: 0.077
+2021-04-12 20:33:30 CRITICAL: - MAP: 0.131
+2021-04-12 20:38:35 INFO: - EVALUATING ON DEV DATA
+2021-04-12 20:39:26 CRITICAL: - concept:parentofperson Hits10:0.403, Hits5:0.213, Hits1:0.088 MRR:0.169
+2021-04-12 20:39:26 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 20:39:40 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.000, Hits1:0.000 MRR:0.005
+2021-04-12 20:39:40 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 20:40:00 CRITICAL: - concept:bankbankincountry Hits10:0.651, Hits5:0.502, Hits1:0.231 MRR:0.361
+2021-04-12 20:40:00 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 20:41:06 CRITICAL: - concept:cityalsoknownas Hits10:0.028, Hits5:0.008, Hits1:0.000 MRR:0.011
+2021-04-12 20:41:06 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 20:41:10 CRITICAL: - concept:sportusesstadium Hits10:0.073, Hits5:0.056, Hits1:0.000 MRR:0.031
+2021-04-12 20:41:10 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 20:41:10 CRITICAL: - HITS10: 0.256
+2021-04-12 20:41:10 CRITICAL: - HITS5: 0.171
+2021-04-12 20:41:10 CRITICAL: - HITS1: 0.072
+2021-04-12 20:41:10 CRITICAL: - MAP: 0.127
+2021-04-12 20:46:17 INFO: - EVALUATING ON DEV DATA
+2021-04-12 20:47:08 CRITICAL: - concept:parentofperson Hits10:0.435, Hits5:0.306, Hits1:0.106 MRR:0.212
+2021-04-12 20:47:08 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 20:47:21 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.013, Hits1:0.013 MRR:0.023
+2021-04-12 20:47:21 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 20:47:41 CRITICAL: - concept:bankbankincountry Hits10:0.694, Hits5:0.550, Hits1:0.210 MRR:0.374
+2021-04-12 20:47:41 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 20:48:48 CRITICAL: - concept:cityalsoknownas Hits10:0.020, Hits5:0.011, Hits1:0.003 MRR:0.015
+2021-04-12 20:48:48 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 20:48:52 CRITICAL: - concept:sportusesstadium Hits10:0.008, Hits5:0.008, Hits1:0.000 MRR:0.008
+2021-04-12 20:48:52 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 20:48:52 CRITICAL: - HITS10: 0.264
+2021-04-12 20:48:52 CRITICAL: - HITS5: 0.198
+2021-04-12 20:48:52 CRITICAL: - HITS1: 0.073
+2021-04-12 20:48:52 CRITICAL: - MAP: 0.140
+2021-04-12 20:53:57 INFO: - EVALUATING ON DEV DATA
+2021-04-12 20:54:48 CRITICAL: - concept:parentofperson Hits10:0.398, Hits5:0.245, Hits1:0.079 MRR:0.169
+2021-04-12 20:54:48 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 20:55:02 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.000, Hits1:0.000 MRR:0.007
+2021-04-12 20:55:02 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 20:55:20 CRITICAL: - concept:bankbankincountry Hits10:0.677, Hits5:0.533, Hits1:0.227 MRR:0.362
+2021-04-12 20:55:20 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 20:56:27 CRITICAL: - concept:cityalsoknownas Hits10:0.023, Hits5:0.011, Hits1:0.003 MRR:0.015
+2021-04-12 20:56:27 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 20:56:32 CRITICAL: - concept:sportusesstadium Hits10:0.032, Hits5:0.016, Hits1:0.000 MRR:0.013
+2021-04-12 20:56:32 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 20:56:32 CRITICAL: - HITS10: 0.255
+2021-04-12 20:56:32 CRITICAL: - HITS5: 0.181
+2021-04-12 20:56:32 CRITICAL: - HITS1: 0.070
+2021-04-12 20:56:32 CRITICAL: - MAP: 0.127
+2021-04-12 21:01:36 INFO: - EVALUATING ON DEV DATA
+2021-04-12 21:02:28 CRITICAL: - concept:parentofperson Hits10:0.347, Hits5:0.227, Hits1:0.069 MRR:0.162
+2021-04-12 21:02:28 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 21:02:42 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.013, Hits1:0.000 MRR:0.009
+2021-04-12 21:02:42 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 21:02:59 CRITICAL: - concept:bankbankincountry Hits10:0.690, Hits5:0.555, Hits1:0.183 MRR:0.350
+2021-04-12 21:02:59 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 21:04:06 CRITICAL: - concept:cityalsoknownas Hits10:0.037, Hits5:0.017, Hits1:0.000 MRR:0.016
+2021-04-12 21:04:06 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 21:04:10 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.000, Hits1:0.000 MRR:0.007
+2021-04-12 21:04:10 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 21:04:10 CRITICAL: - HITS10: 0.253
+2021-04-12 21:04:10 CRITICAL: - HITS5: 0.183
+2021-04-12 21:04:10 CRITICAL: - HITS1: 0.057
+2021-04-12 21:04:10 CRITICAL: - MAP: 0.123
+2021-04-12 21:09:15 INFO: - EVALUATING ON DEV DATA
+2021-04-12 21:10:06 CRITICAL: - concept:parentofperson Hits10:0.292, Hits5:0.171, Hits1:0.032 MRR:0.114
+2021-04-12 21:10:06 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 21:10:20 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.027, Hits1:0.013 MRR:0.023
+2021-04-12 21:10:20 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 21:10:41 CRITICAL: - concept:bankbankincountry Hits10:0.681, Hits5:0.528, Hits1:0.218 MRR:0.376
+2021-04-12 21:10:41 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 21:11:49 CRITICAL: - concept:cityalsoknownas Hits10:0.023, Hits5:0.008, Hits1:0.000 MRR:0.014
+2021-04-12 21:11:49 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 21:11:53 CRITICAL: - concept:sportusesstadium Hits10:0.016, Hits5:0.008, Hits1:0.000 MRR:0.010
+2021-04-12 21:11:53 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 21:11:53 CRITICAL: - HITS10: 0.231
+2021-04-12 21:11:53 CRITICAL: - HITS5: 0.164
+2021-04-12 21:11:53 CRITICAL: - HITS1: 0.058
+2021-04-12 21:11:53 CRITICAL: - MAP: 0.119
+2021-04-12 21:16:56 INFO: - EVALUATING ON DEV DATA
+2021-04-12 21:17:47 CRITICAL: - concept:parentofperson Hits10:0.435, Hits5:0.292, Hits1:0.046 MRR:0.155
+2021-04-12 21:17:47 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 21:18:01 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.000, Hits1:0.000 MRR:0.007
+2021-04-12 21:18:01 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 21:18:20 CRITICAL: - concept:bankbankincountry Hits10:0.659, Hits5:0.546, Hits1:0.153 MRR:0.333
+2021-04-12 21:18:20 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 21:19:28 CRITICAL: - concept:cityalsoknownas Hits10:0.059, Hits5:0.017, Hits1:0.000 MRR:0.021
+2021-04-12 21:19:28 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 21:19:31 CRITICAL: - concept:sportusesstadium Hits10:0.056, Hits5:0.048, Hits1:0.040 MRR:0.048
+2021-04-12 21:19:31 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 21:19:31 CRITICAL: - HITS10: 0.275
+2021-04-12 21:19:31 CRITICAL: - HITS5: 0.200
+2021-04-12 21:19:31 CRITICAL: - HITS1: 0.050
+2021-04-12 21:19:31 CRITICAL: - MAP: 0.124
+2021-04-12 21:24:36 INFO: - EVALUATING ON DEV DATA
+2021-04-12 21:25:27 CRITICAL: - concept:parentofperson Hits10:0.389, Hits5:0.231, Hits1:0.060 MRR:0.151
+2021-04-12 21:25:27 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 21:25:41 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.013, Hits1:0.000 MRR:0.007
+2021-04-12 21:25:41 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 21:26:00 CRITICAL: - concept:bankbankincountry Hits10:0.707, Hits5:0.502, Hits1:0.205 MRR:0.360
+2021-04-12 21:26:00 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 21:27:06 CRITICAL: - concept:cityalsoknownas Hits10:0.037, Hits5:0.008, Hits1:0.000 MRR:0.015
+2021-04-12 21:27:06 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 21:27:11 CRITICAL: - concept:sportusesstadium Hits10:0.073, Hits5:0.065, Hits1:0.040 MRR:0.051
+2021-04-12 21:27:11 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 21:27:11 CRITICAL: - HITS10: 0.269
+2021-04-12 21:27:11 CRITICAL: - HITS5: 0.177
+2021-04-12 21:27:11 CRITICAL: - HITS1: 0.065
+2021-04-12 21:27:11 CRITICAL: - MAP: 0.127
+2021-04-12 21:32:15 INFO: - EVALUATING ON DEV DATA
+2021-04-12 21:33:06 CRITICAL: - concept:parentofperson Hits10:0.356, Hits5:0.213, Hits1:0.069 MRR:0.160
+2021-04-12 21:33:06 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 21:33:20 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.000, Hits1:0.000 MRR:0.006
+2021-04-12 21:33:20 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 21:33:38 CRITICAL: - concept:bankbankincountry Hits10:0.690, Hits5:0.546, Hits1:0.214 MRR:0.366
+2021-04-12 21:33:38 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 21:34:45 CRITICAL: - concept:cityalsoknownas Hits10:0.034, Hits5:0.014, Hits1:0.000 MRR:0.014
+2021-04-12 21:34:45 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 21:34:50 CRITICAL: - concept:sportusesstadium Hits10:0.032, Hits5:0.016, Hits1:0.008 MRR:0.017
+2021-04-12 21:34:50 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 21:34:50 CRITICAL: - HITS10: 0.252
+2021-04-12 21:34:50 CRITICAL: - HITS5: 0.178
+2021-04-12 21:34:50 CRITICAL: - HITS1: 0.065
+2021-04-12 21:34:50 CRITICAL: - MAP: 0.126
+2021-04-12 21:39:53 INFO: - EVALUATING ON DEV DATA
+2021-04-12 21:40:45 CRITICAL: - concept:parentofperson Hits10:0.463, Hits5:0.287, Hits1:0.060 MRR:0.168
+2021-04-12 21:40:45 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 21:40:58 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.000, Hits1:0.000 MRR:0.005
+2021-04-12 21:40:58 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 21:41:17 CRITICAL: - concept:bankbankincountry Hits10:0.677, Hits5:0.415, Hits1:0.170 MRR:0.304
+2021-04-12 21:41:17 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 21:42:24 CRITICAL: - concept:cityalsoknownas Hits10:0.039, Hits5:0.023, Hits1:0.003 MRR:0.019
+2021-04-12 21:42:24 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 21:42:29 CRITICAL: - concept:sportusesstadium Hits10:0.032, Hits5:0.024, Hits1:0.008 MRR:0.022
+2021-04-12 21:42:29 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 21:42:29 CRITICAL: - HITS10: 0.274
+2021-04-12 21:42:29 CRITICAL: - HITS5: 0.168
+2021-04-12 21:42:29 CRITICAL: - HITS1: 0.054
+2021-04-12 21:42:29 CRITICAL: - MAP: 0.116
+2021-04-12 21:47:33 INFO: - EVALUATING ON DEV DATA
+2021-04-12 21:48:24 CRITICAL: - concept:parentofperson Hits10:0.468, Hits5:0.292, Hits1:0.116 MRR:0.216
+2021-04-12 21:48:24 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 21:48:38 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.000, Hits1:0.000 MRR:0.005
+2021-04-12 21:48:38 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 21:48:57 CRITICAL: - concept:bankbankincountry Hits10:0.677, Hits5:0.550, Hits1:0.183 MRR:0.330
+2021-04-12 21:48:57 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 21:50:04 CRITICAL: - concept:cityalsoknownas Hits10:0.031, Hits5:0.006, Hits1:0.003 MRR:0.014
+2021-04-12 21:50:04 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 21:50:09 CRITICAL: - concept:sportusesstadium Hits10:0.008, Hits5:0.008, Hits1:0.008 MRR:0.013
+2021-04-12 21:50:09 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 21:50:09 CRITICAL: - HITS10: 0.269
+2021-04-12 21:50:09 CRITICAL: - HITS5: 0.192
+2021-04-12 21:50:09 CRITICAL: - HITS1: 0.069
+2021-04-12 21:50:09 CRITICAL: - MAP: 0.129
+2021-04-12 21:55:14 INFO: - EVALUATING ON DEV DATA
+2021-04-12 21:56:06 CRITICAL: - concept:parentofperson Hits10:0.375, Hits5:0.227, Hits1:0.060 MRR:0.155
+2021-04-12 21:56:06 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 21:56:19 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.000, Hits1:0.000 MRR:0.007
+2021-04-12 21:56:19 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 21:56:39 CRITICAL: - concept:bankbankincountry Hits10:0.659, Hits5:0.581, Hits1:0.170 MRR:0.330
+2021-04-12 21:56:39 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 21:57:47 CRITICAL: - concept:cityalsoknownas Hits10:0.037, Hits5:0.023, Hits1:0.003 MRR:0.018
+2021-04-12 21:57:47 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 21:57:51 CRITICAL: - concept:sportusesstadium Hits10:0.032, Hits5:0.016, Hits1:0.008 MRR:0.018
+2021-04-12 21:57:51 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 21:57:51 CRITICAL: - HITS10: 0.250
+2021-04-12 21:57:51 CRITICAL: - HITS5: 0.192
+2021-04-12 21:57:51 CRITICAL: - HITS1: 0.054
+2021-04-12 21:57:51 CRITICAL: - MAP: 0.119
+2021-04-12 22:02:57 INFO: - EVALUATING ON DEV DATA
+2021-04-12 22:03:48 CRITICAL: - concept:parentofperson Hits10:0.412, Hits5:0.227, Hits1:0.056 MRR:0.157
+2021-04-12 22:03:48 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 22:04:02 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.013, Hits1:0.000 MRR:0.012
+2021-04-12 22:04:02 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 22:04:19 CRITICAL: - concept:bankbankincountry Hits10:0.686, Hits5:0.550, Hits1:0.188 MRR:0.344
+2021-04-12 22:04:19 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 22:05:26 CRITICAL: - concept:cityalsoknownas Hits10:0.056, Hits5:0.017, Hits1:0.000 MRR:0.016
+2021-04-12 22:05:26 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 22:05:30 CRITICAL: - concept:sportusesstadium Hits10:0.024, Hits5:0.008, Hits1:0.000 MRR:0.012
+2021-04-12 22:05:30 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 22:05:30 CRITICAL: - HITS10: 0.271
+2021-04-12 22:05:30 CRITICAL: - HITS5: 0.183
+2021-04-12 22:05:30 CRITICAL: - HITS1: 0.055
+2021-04-12 22:05:30 CRITICAL: - MAP: 0.121
+2021-04-12 22:10:37 INFO: - EVALUATING ON DEV DATA
+2021-04-12 22:11:28 CRITICAL: - concept:parentofperson Hits10:0.389, Hits5:0.245, Hits1:0.042 MRR:0.145
+2021-04-12 22:11:28 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 22:11:42 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.013, Hits1:0.000 MRR:0.015
+2021-04-12 22:11:42 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 22:12:00 CRITICAL: - concept:bankbankincountry Hits10:0.668, Hits5:0.546, Hits1:0.175 MRR:0.323
+2021-04-12 22:12:00 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 22:13:09 CRITICAL: - concept:cityalsoknownas Hits10:0.056, Hits5:0.028, Hits1:0.006 MRR:0.023
+2021-04-12 22:13:09 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 22:13:13 CRITICAL: - concept:sportusesstadium Hits10:0.056, Hits5:0.024, Hits1:0.008 MRR:0.021
+2021-04-12 22:13:13 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 22:13:13 CRITICAL: - HITS10: 0.267
+2021-04-12 22:13:13 CRITICAL: - HITS5: 0.192
+2021-04-12 22:13:13 CRITICAL: - HITS1: 0.052
+2021-04-12 22:13:13 CRITICAL: - MAP: 0.117
+2021-04-12 22:18:18 INFO: - EVALUATING ON DEV DATA
+2021-04-12 22:19:09 CRITICAL: - concept:parentofperson Hits10:0.310, Hits5:0.190, Hits1:0.069 MRR:0.146
+2021-04-12 22:19:09 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 22:19:23 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.000, Hits1:0.000 MRR:0.011
+2021-04-12 22:19:23 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 22:19:43 CRITICAL: - concept:bankbankincountry Hits10:0.646, Hits5:0.502, Hits1:0.179 MRR:0.326
+2021-04-12 22:19:43 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 22:20:51 CRITICAL: - concept:cityalsoknownas Hits10:0.031, Hits5:0.006, Hits1:0.000 MRR:0.010
+2021-04-12 22:20:51 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 22:20:55 CRITICAL: - concept:sportusesstadium Hits10:0.048, Hits5:0.032, Hits1:0.000 MRR:0.016
+2021-04-12 22:20:55 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 22:20:55 CRITICAL: - HITS10: 0.234
+2021-04-12 22:20:55 CRITICAL: - HITS5: 0.162
+2021-04-12 22:20:55 CRITICAL: - HITS1: 0.056
+2021-04-12 22:20:55 CRITICAL: - MAP: 0.113
+2021-04-12 22:26:01 INFO: - EVALUATING ON DEV DATA
+2021-04-12 22:26:52 CRITICAL: - concept:parentofperson Hits10:0.417, Hits5:0.194, Hits1:0.074 MRR:0.159
+2021-04-12 22:26:52 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 22:27:06 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.000, Hits1:0.000 MRR:0.011
+2021-04-12 22:27:06 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 22:27:25 CRITICAL: - concept:bankbankincountry Hits10:0.677, Hits5:0.537, Hits1:0.179 MRR:0.319
+2021-04-12 22:27:25 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 22:28:33 CRITICAL: - concept:cityalsoknownas Hits10:0.034, Hits5:0.006, Hits1:0.000 MRR:0.012
+2021-04-12 22:28:33 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 22:28:37 CRITICAL: - concept:sportusesstadium Hits10:0.032, Hits5:0.024, Hits1:0.000 MRR:0.015
+2021-04-12 22:28:37 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 22:28:37 CRITICAL: - HITS10: 0.265
+2021-04-12 22:28:37 CRITICAL: - HITS5: 0.170
+2021-04-12 22:28:37 CRITICAL: - HITS1: 0.057
+2021-04-12 22:28:37 CRITICAL: - MAP: 0.115
+2021-04-12 22:33:41 INFO: - EVALUATING ON DEV DATA
+2021-04-12 22:34:31 CRITICAL: - concept:parentofperson Hits10:0.329, Hits5:0.222, Hits1:0.069 MRR:0.158
+2021-04-12 22:34:31 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 22:34:45 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.013, Hits1:0.000 MRR:0.016
+2021-04-12 22:34:45 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 22:35:05 CRITICAL: - concept:bankbankincountry Hits10:0.686, Hits5:0.541, Hits1:0.214 MRR:0.360
+2021-04-12 22:35:05 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 22:36:11 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.003, Hits1:0.000 MRR:0.011
+2021-04-12 22:36:11 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 22:36:16 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.040, Hits1:0.000 MRR:0.014
+2021-04-12 22:36:16 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 22:36:16 CRITICAL: - HITS10: 0.244
+2021-04-12 22:36:16 CRITICAL: - HITS5: 0.179
+2021-04-12 22:36:16 CRITICAL: - HITS1: 0.064
+2021-04-12 22:36:16 CRITICAL: - MAP: 0.123
+2021-04-12 22:41:21 INFO: - EVALUATING ON DEV DATA
+2021-04-12 22:42:12 CRITICAL: - concept:parentofperson Hits10:0.417, Hits5:0.278, Hits1:0.060 MRR:0.170
+2021-04-12 22:42:12 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 22:42:25 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.013, Hits1:0.000 MRR:0.009
+2021-04-12 22:42:26 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 22:42:46 CRITICAL: - concept:bankbankincountry Hits10:0.668, Hits5:0.511, Hits1:0.266 MRR:0.389
+2021-04-12 22:42:46 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 22:43:54 CRITICAL: - concept:cityalsoknownas Hits10:0.045, Hits5:0.008, Hits1:0.000 MRR:0.015
+2021-04-12 22:43:54 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 22:43:58 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.040, Hits1:0.000 MRR:0.017
+2021-04-12 22:43:58 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 22:43:58 CRITICAL: - HITS10: 0.265
+2021-04-12 22:43:58 CRITICAL: - HITS5: 0.186
+2021-04-12 22:43:58 CRITICAL: - HITS1: 0.074
+2021-04-12 22:43:58 CRITICAL: - MAP: 0.134
+2021-04-12 22:49:02 INFO: - EVALUATING ON DEV DATA
+2021-04-12 22:49:53 CRITICAL: - concept:parentofperson Hits10:0.394, Hits5:0.236, Hits1:0.088 MRR:0.170
+2021-04-12 22:49:53 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 22:50:06 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.000, Hits1:0.000 MRR:0.009
+2021-04-12 22:50:06 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 22:50:25 CRITICAL: - concept:bankbankincountry Hits10:0.664, Hits5:0.546, Hits1:0.240 MRR:0.372
+2021-04-12 22:50:25 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 22:51:33 CRITICAL: - concept:cityalsoknownas Hits10:0.039, Hits5:0.008, Hits1:0.000 MRR:0.014
+2021-04-12 22:51:33 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 22:51:36 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.024, Hits1:0.000 MRR:0.014
+2021-04-12 22:51:36 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 22:51:36 CRITICAL: - HITS10: 0.258
+2021-04-12 22:51:36 CRITICAL: - HITS5: 0.182
+2021-04-12 22:51:36 CRITICAL: - HITS1: 0.074
+2021-04-12 22:51:36 CRITICAL: - MAP: 0.130
+2021-04-12 22:56:43 INFO: - EVALUATING ON DEV DATA
+2021-04-12 22:57:33 CRITICAL: - concept:parentofperson Hits10:0.394, Hits5:0.208, Hits1:0.079 MRR:0.160
+2021-04-12 22:57:33 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 22:57:47 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.000, Hits1:0.000 MRR:0.012
+2021-04-12 22:57:47 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 22:58:06 CRITICAL: - concept:bankbankincountry Hits10:0.659, Hits5:0.507, Hits1:0.170 MRR:0.329
+2021-04-12 22:58:06 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 22:59:14 CRITICAL: - concept:cityalsoknownas Hits10:0.023, Hits5:0.011, Hits1:0.000 MRR:0.014
+2021-04-12 22:59:14 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 22:59:18 CRITICAL: - concept:sportusesstadium Hits10:0.073, Hits5:0.065, Hits1:0.032 MRR:0.048
+2021-04-12 22:59:18 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 22:59:18 CRITICAL: - HITS10: 0.257
+2021-04-12 22:59:18 CRITICAL: - HITS5: 0.173
+2021-04-12 22:59:18 CRITICAL: - HITS1: 0.060
+2021-04-12 22:59:18 CRITICAL: - MAP: 0.122
+2021-04-12 23:04:24 INFO: - EVALUATING ON DEV DATA
+2021-04-12 23:05:14 CRITICAL: - concept:parentofperson Hits10:0.366, Hits5:0.292, Hits1:0.088 MRR:0.179
+2021-04-12 23:05:14 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 23:05:28 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.080, Hits5:0.013, Hits1:0.000 MRR:0.019
+2021-04-12 23:05:28 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 23:05:46 CRITICAL: - concept:bankbankincountry Hits10:0.655, Hits5:0.520, Hits1:0.179 MRR:0.344
+2021-04-12 23:05:46 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 23:06:54 CRITICAL: - concept:cityalsoknownas Hits10:0.020, Hits5:0.003, Hits1:0.003 MRR:0.012
+2021-04-12 23:06:54 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 23:06:58 CRITICAL: - concept:sportusesstadium Hits10:0.073, Hits5:0.065, Hits1:0.032 MRR:0.049
+2021-04-12 23:06:58 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 23:06:58 CRITICAL: - HITS10: 0.251
+2021-04-12 23:06:58 CRITICAL: - HITS5: 0.192
+2021-04-12 23:06:58 CRITICAL: - HITS1: 0.065
+2021-04-12 23:06:58 CRITICAL: - MAP: 0.129
+2021-04-12 23:12:03 INFO: - EVALUATING ON DEV DATA
+2021-04-12 23:12:53 CRITICAL: - concept:parentofperson Hits10:0.366, Hits5:0.245, Hits1:0.074 MRR:0.163
+2021-04-12 23:12:53 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 23:13:07 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.013, Hits1:0.000 MRR:0.014
+2021-04-12 23:13:07 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 23:13:27 CRITICAL: - concept:bankbankincountry Hits10:0.668, Hits5:0.568, Hits1:0.275 MRR:0.388
+2021-04-12 23:13:27 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 23:14:34 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.017, Hits1:0.000 MRR:0.012
+2021-04-12 23:14:34 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 23:14:39 CRITICAL: - concept:sportusesstadium Hits10:0.024, Hits5:0.024, Hits1:0.008 MRR:0.017
+2021-04-12 23:14:39 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 23:14:39 CRITICAL: - HITS10: 0.247
+2021-04-12 23:14:39 CRITICAL: - HITS5: 0.193
+2021-04-12 23:14:39 CRITICAL: - HITS1: 0.080
+2021-04-12 23:14:39 CRITICAL: - MAP: 0.132
+2021-04-12 23:19:49 INFO: - EVALUATING ON DEV DATA
+2021-04-12 23:20:39 CRITICAL: - concept:parentofperson Hits10:0.426, Hits5:0.269, Hits1:0.097 MRR:0.190
+2021-04-12 23:20:39 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 23:20:53 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.000, Hits1:0.000 MRR:0.009
+2021-04-12 23:20:53 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 23:21:12 CRITICAL: - concept:bankbankincountry Hits10:0.690, Hits5:0.528, Hits1:0.236 MRR:0.380
+2021-04-12 23:21:12 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 23:22:20 CRITICAL: - concept:cityalsoknownas Hits10:0.023, Hits5:0.008, Hits1:0.000 MRR:0.010
+2021-04-12 23:22:20 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 23:22:24 CRITICAL: - concept:sportusesstadium Hits10:0.073, Hits5:0.065, Hits1:0.032 MRR:0.050
+2021-04-12 23:22:24 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 23:22:24 CRITICAL: - HITS10: 0.270
+2021-04-12 23:22:24 CRITICAL: - HITS5: 0.190
+2021-04-12 23:22:24 CRITICAL: - HITS1: 0.079
+2021-04-12 23:22:24 CRITICAL: - MAP: 0.139
+2021-04-12 23:27:31 INFO: - EVALUATING ON DEV DATA
+2021-04-12 23:28:22 CRITICAL: - concept:parentofperson Hits10:0.394, Hits5:0.222, Hits1:0.065 MRR:0.152
+2021-04-12 23:28:22 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 23:28:36 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.027, Hits1:0.000 MRR:0.017
+2021-04-12 23:28:36 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 23:28:55 CRITICAL: - concept:bankbankincountry Hits10:0.686, Hits5:0.581, Hits1:0.205 MRR:0.352
+2021-04-12 23:28:55 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 23:30:02 CRITICAL: - concept:cityalsoknownas Hits10:0.037, Hits5:0.023, Hits1:0.003 MRR:0.018
+2021-04-12 23:30:02 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 23:30:07 CRITICAL: - concept:sportusesstadium Hits10:0.048, Hits5:0.040, Hits1:0.000 MRR:0.016
+2021-04-12 23:30:07 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 23:30:07 CRITICAL: - HITS10: 0.264
+2021-04-12 23:30:07 CRITICAL: - HITS5: 0.196
+2021-04-12 23:30:07 CRITICAL: - HITS1: 0.062
+2021-04-12 23:30:07 CRITICAL: - MAP: 0.123
+2021-04-12 23:35:14 INFO: - EVALUATING ON DEV DATA
+2021-04-12 23:36:04 CRITICAL: - concept:parentofperson Hits10:0.319, Hits5:0.218, Hits1:0.060 MRR:0.139
+2021-04-12 23:36:04 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 23:36:17 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.000, Hits1:0.000 MRR:0.007
+2021-04-12 23:36:17 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 23:36:38 CRITICAL: - concept:bankbankincountry Hits10:0.664, Hits5:0.572, Hits1:0.249 MRR:0.377
+2021-04-12 23:36:38 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 23:37:45 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.014, Hits1:0.000 MRR:0.013
+2021-04-12 23:37:45 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 23:37:50 CRITICAL: - concept:sportusesstadium Hits10:0.105, Hits5:0.089, Hits1:0.040 MRR:0.060
+2021-04-12 23:37:50 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 23:37:50 CRITICAL: - HITS10: 0.244
+2021-04-12 23:37:50 CRITICAL: - HITS5: 0.194
+2021-04-12 23:37:50 CRITICAL: - HITS1: 0.075
+2021-04-12 23:37:50 CRITICAL: - MAP: 0.129
+2021-04-12 23:42:54 INFO: - EVALUATING ON DEV DATA
+2021-04-12 23:43:46 CRITICAL: - concept:parentofperson Hits10:0.338, Hits5:0.255, Hits1:0.093 MRR:0.176
+2021-04-12 23:43:46 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 23:44:00 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.027, Hits1:0.000 MRR:0.020
+2021-04-12 23:44:00 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 23:44:19 CRITICAL: - concept:bankbankincountry Hits10:0.690, Hits5:0.576, Hits1:0.192 MRR:0.359
+2021-04-12 23:44:19 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 23:45:26 CRITICAL: - concept:cityalsoknownas Hits10:0.039, Hits5:0.020, Hits1:0.003 MRR:0.018
+2021-04-12 23:45:26 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 23:45:30 CRITICAL: - concept:sportusesstadium Hits10:0.056, Hits5:0.040, Hits1:0.000 MRR:0.019
+2021-04-12 23:45:30 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 23:45:30 CRITICAL: - HITS10: 0.256
+2021-04-12 23:45:30 CRITICAL: - HITS5: 0.201
+2021-04-12 23:45:30 CRITICAL: - HITS1: 0.065
+2021-04-12 23:45:30 CRITICAL: - MAP: 0.131
+2021-04-12 23:50:31 INFO: - EVALUATING ON DEV DATA
+2021-04-12 23:51:23 CRITICAL: - concept:parentofperson Hits10:0.310, Hits5:0.218, Hits1:0.069 MRR:0.145
+2021-04-12 23:51:23 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 23:51:37 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.013, Hits1:0.000 MRR:0.011
+2021-04-12 23:51:37 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 23:51:57 CRITICAL: - concept:bankbankincountry Hits10:0.664, Hits5:0.572, Hits1:0.170 MRR:0.354
+2021-04-12 23:51:57 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-12 23:53:03 CRITICAL: - concept:cityalsoknownas Hits10:0.020, Hits5:0.006, Hits1:0.003 MRR:0.013
+2021-04-12 23:53:03 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-12 23:53:08 CRITICAL: - concept:sportusesstadium Hits10:0.048, Hits5:0.024, Hits1:0.000 MRR:0.013
+2021-04-12 23:53:08 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-12 23:53:08 CRITICAL: - HITS10: 0.235
+2021-04-12 23:53:08 CRITICAL: - HITS5: 0.184
+2021-04-12 23:53:08 CRITICAL: - HITS1: 0.055
+2021-04-12 23:53:08 CRITICAL: - MAP: 0.119
+2021-04-12 23:58:10 INFO: - EVALUATING ON DEV DATA
+2021-04-12 23:59:01 CRITICAL: - concept:parentofperson Hits10:0.319, Hits5:0.204, Hits1:0.065 MRR:0.143
+2021-04-12 23:59:01 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-12 23:59:15 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.013, Hits1:0.013 MRR:0.020
+2021-04-12 23:59:15 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-12 23:59:35 CRITICAL: - concept:bankbankincountry Hits10:0.690, Hits5:0.563, Hits1:0.201 MRR:0.358
+2021-04-12 23:59:35 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-13 00:00:43 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.008, Hits1:0.000 MRR:0.011
+2021-04-13 00:00:43 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-13 00:00:47 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.024, Hits1:0.000 MRR:0.013
+2021-04-13 00:00:47 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-13 00:00:47 CRITICAL: - HITS10: 0.245
+2021-04-13 00:00:47 CRITICAL: - HITS5: 0.180
+2021-04-13 00:00:47 CRITICAL: - HITS1: 0.061
+2021-04-13 00:00:47 CRITICAL: - MAP: 0.120
+2021-04-13 00:05:50 INFO: - EVALUATING ON DEV DATA
+2021-04-13 00:06:40 CRITICAL: - concept:parentofperson Hits10:0.319, Hits5:0.231, Hits1:0.074 MRR:0.156
+2021-04-13 00:06:40 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-13 00:06:54 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.053, Hits5:0.027, Hits1:0.000 MRR:0.016
+2021-04-13 00:06:54 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-13 00:07:14 CRITICAL: - concept:bankbankincountry Hits10:0.664, Hits5:0.603, Hits1:0.275 MRR:0.417
+2021-04-13 00:07:14 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-13 00:08:24 CRITICAL: - concept:cityalsoknownas Hits10:0.023, Hits5:0.017, Hits1:0.000 MRR:0.013
+2021-04-13 00:08:24 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-13 00:08:28 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.040, Hits1:0.000 MRR:0.021
+2021-04-13 00:08:28 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-13 00:08:28 CRITICAL: - HITS10: 0.238
+2021-04-13 00:08:28 CRITICAL: - HITS5: 0.201
+2021-04-13 00:08:28 CRITICAL: - HITS1: 0.079
+2021-04-13 00:08:28 CRITICAL: - MAP: 0.138
+2021-04-13 00:13:31 INFO: - EVALUATING ON DEV DATA
+2021-04-13 00:14:21 CRITICAL: - concept:parentofperson Hits10:0.361, Hits5:0.222, Hits1:0.065 MRR:0.154
+2021-04-13 00:14:21 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-13 00:14:35 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.013, Hits1:0.000 MRR:0.015
+2021-04-13 00:14:35 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-13 00:14:55 CRITICAL: - concept:bankbankincountry Hits10:0.686, Hits5:0.607, Hits1:0.201 MRR:0.365
+2021-04-13 00:14:55 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-13 00:16:03 CRITICAL: - concept:cityalsoknownas Hits10:0.034, Hits5:0.011, Hits1:0.006 MRR:0.017
+2021-04-13 00:16:03 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-13 00:16:07 CRITICAL: - concept:sportusesstadium Hits10:0.048, Hits5:0.032, Hits1:0.000 MRR:0.017
+2021-04-13 00:16:07 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-13 00:16:07 CRITICAL: - HITS10: 0.256
+2021-04-13 00:16:07 CRITICAL: - HITS5: 0.196
+2021-04-13 00:16:07 CRITICAL: - HITS1: 0.062
+2021-04-13 00:16:07 CRITICAL: - MAP: 0.126
+2021-04-13 00:21:10 INFO: - EVALUATING ON DEV DATA
+2021-04-13 00:22:00 CRITICAL: - concept:parentofperson Hits10:0.329, Hits5:0.204, Hits1:0.079 MRR:0.157
+2021-04-13 00:22:00 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-13 00:22:13 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.040, Hits5:0.013, Hits1:0.000 MRR:0.009
+2021-04-13 00:22:13 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-13 00:22:33 CRITICAL: - concept:bankbankincountry Hits10:0.672, Hits5:0.607, Hits1:0.214 MRR:0.371
+2021-04-13 00:22:33 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-13 00:23:41 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.011, Hits1:0.006 MRR:0.019
+2021-04-13 00:23:41 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-13 00:23:45 CRITICAL: - concept:sportusesstadium Hits10:0.056, Hits5:0.040, Hits1:0.000 MRR:0.022
+2021-04-13 00:23:45 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-13 00:23:45 CRITICAL: - HITS10: 0.244
+2021-04-13 00:23:45 CRITICAL: - HITS5: 0.193
+2021-04-13 00:23:45 CRITICAL: - HITS1: 0.068
+2021-04-13 00:23:45 CRITICAL: - MAP: 0.129
+2021-04-13 00:28:49 INFO: - EVALUATING ON DEV DATA
+2021-04-13 00:29:40 CRITICAL: - concept:parentofperson Hits10:0.375, Hits5:0.282, Hits1:0.079 MRR:0.170
+2021-04-13 00:29:40 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-13 00:29:54 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.013, Hits1:0.013 MRR:0.018
+2021-04-13 00:29:54 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-13 00:30:14 CRITICAL: - concept:bankbankincountry Hits10:0.681, Hits5:0.563, Hits1:0.218 MRR:0.393
+2021-04-13 00:30:14 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-13 00:31:22 CRITICAL: - concept:cityalsoknownas Hits10:0.045, Hits5:0.031, Hits1:0.006 MRR:0.023
+2021-04-13 00:31:22 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-13 00:31:26 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.024, Hits1:0.000 MRR:0.015
+2021-04-13 00:31:26 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-13 00:31:26 CRITICAL: - HITS10: 0.260
+2021-04-13 00:31:26 CRITICAL: - HITS5: 0.205
+2021-04-13 00:31:26 CRITICAL: - HITS1: 0.070
+2021-04-13 00:31:26 CRITICAL: - MAP: 0.138
+2021-04-13 00:36:32 INFO: - EVALUATING ON DEV DATA
+2021-04-13 00:37:22 CRITICAL: - concept:parentofperson Hits10:0.315, Hits5:0.236, Hits1:0.069 MRR:0.154
+2021-04-13 00:37:22 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-13 00:37:36 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.027, Hits5:0.013, Hits1:0.000 MRR:0.007
+2021-04-13 00:37:36 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-13 00:37:54 CRITICAL: - concept:bankbankincountry Hits10:0.690, Hits5:0.576, Hits1:0.275 MRR:0.391
+2021-04-13 00:37:54 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-13 00:39:02 CRITICAL: - concept:cityalsoknownas Hits10:0.034, Hits5:0.014, Hits1:0.000 MRR:0.014
+2021-04-13 00:39:02 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-13 00:39:05 CRITICAL: - concept:sportusesstadium Hits10:0.040, Hits5:0.040, Hits1:0.000 MRR:0.019
+2021-04-13 00:39:05 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-13 00:39:05 CRITICAL: - HITS10: 0.245
+2021-04-13 00:39:05 CRITICAL: - HITS5: 0.194
+2021-04-13 00:39:05 CRITICAL: - HITS1: 0.078
+2021-04-13 00:39:05 CRITICAL: - MAP: 0.131
+2021-04-13 00:44:09 INFO: - EVALUATING ON DEV DATA
+2021-04-13 00:45:00 CRITICAL: - concept:parentofperson Hits10:0.287, Hits5:0.204, Hits1:0.083 MRR:0.152
+2021-04-13 00:45:00 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-13 00:45:14 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.067, Hits5:0.027, Hits1:0.013 MRR:0.027
+2021-04-13 00:45:14 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-13 00:45:33 CRITICAL: - concept:bankbankincountry Hits10:0.690, Hits5:0.568, Hits1:0.249 MRR:0.375
+2021-04-13 00:45:33 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-13 00:46:39 CRITICAL: - concept:cityalsoknownas Hits10:0.025, Hits5:0.006, Hits1:0.000 MRR:0.011
+2021-04-13 00:46:39 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-13 00:46:44 CRITICAL: - concept:sportusesstadium Hits10:0.073, Hits5:0.065, Hits1:0.032 MRR:0.052
+2021-04-13 00:46:44 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-13 00:46:44 CRITICAL: - HITS10: 0.243
+2021-04-13 00:46:44 CRITICAL: - HITS5: 0.186
+2021-04-13 00:46:44 CRITICAL: - HITS1: 0.080
+2021-04-13 00:46:44 CRITICAL: - MAP: 0.131
+2021-04-13 00:51:51 INFO: - EVALUATING ON DEV DATA
+2021-04-13 00:52:41 CRITICAL: - concept:parentofperson Hits10:0.375, Hits5:0.250, Hits1:0.083 MRR:0.183
+2021-04-13 00:52:41 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-13 00:52:54 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.013, Hits1:0.000 MRR:0.012
+2021-04-13 00:52:54 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-13 00:53:13 CRITICAL: - concept:bankbankincountry Hits10:0.681, Hits5:0.550, Hits1:0.253 MRR:0.370
+2021-04-13 00:53:13 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-13 00:54:22 CRITICAL: - concept:cityalsoknownas Hits10:0.048, Hits5:0.020, Hits1:0.003 MRR:0.019
+2021-04-13 00:54:22 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-13 00:54:25 CRITICAL: - concept:sportusesstadium Hits10:0.032, Hits5:0.032, Hits1:0.000 MRR:0.016
+2021-04-13 00:54:25 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-13 00:54:25 CRITICAL: - HITS10: 0.259
+2021-04-13 00:54:25 CRITICAL: - HITS5: 0.192
+2021-04-13 00:54:25 CRITICAL: - HITS1: 0.077
+2021-04-13 00:54:25 CRITICAL: - MAP: 0.134
+2021-04-13 00:59:30 INFO: - EVALUATING ON DEV DATA
+2021-04-13 01:00:21 CRITICAL: - concept:parentofperson Hits10:0.417, Hits5:0.273, Hits1:0.093 MRR:0.190
+2021-04-13 01:00:21 INFO: - Number of candidates: 9506, number of text examples 216
+2021-04-13 01:00:35 CRITICAL: - concept:politicalgroupofpoliticianus Hits10:0.013, Hits5:0.013, Hits1:0.000 MRR:0.009
+2021-04-13 01:00:35 INFO: - Number of candidates: 6006, number of text examples 75
+2021-04-13 01:00:54 CRITICAL: - concept:bankbankincountry Hits10:0.664, Hits5:0.515, Hits1:0.245 MRR:0.368
+2021-04-13 01:00:54 INFO: - Number of candidates: 2370, number of text examples 229
+2021-04-13 01:02:01 CRITICAL: - concept:cityalsoknownas Hits10:0.014, Hits5:0.003, Hits1:0.000 MRR:0.010
+2021-04-13 01:02:01 INFO: - Number of candidates: 6607, number of text examples 355
+2021-04-13 01:02:05 CRITICAL: - concept:sportusesstadium Hits10:0.048, Hits5:0.032, Hits1:0.000 MRR:0.017
+2021-04-13 01:02:05 INFO: - Number of candidates: 648, number of text examples 124
+2021-04-13 01:02:05 CRITICAL: - HITS10: 0.254
+2021-04-13 01:02:05 CRITICAL: - HITS5: 0.183
+2021-04-13 01:02:05 CRITICAL: - HITS1: 0.076
+2021-04-13 01:02:05 CRITICAL: - MAP: 0.132
+------HYPERPARAMETERS-------
+dataset: NELL
+embed_dim: 100
+few: 1
+batch_size: 128
+neg_num: 1
+random_embed: False
+train_few: 1
+lr: 0.001
+margin: 5.0
+max_batches: 1000000
+dropout: 0.2
+process_steps: 2
+log_every: 50
+eval_every: 10000
+fine_tune: True
+aggregate: max
+max_neighbor: 50
+no_meta: False
+test: False
+grad_clip: 5.0
+weight_decay: 0.0
+embed_model: ComplEx
+prefix: intial
+seed: 19940419
+save_path: models/intial
+----------------------------

@@ -1,0 +1,6 @@
+NELL/
+Wiki/
+*.tar.gz
+logs/
+logs_
+models/
